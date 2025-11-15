@@ -1,117 +1,135 @@
 # Whisp Stamp
 
-This is an online web tool to process a copy pasted JSON with from incredibly-fast-whisper on replicate.com.
+Whisp Stamp converts Replicate's "incredibly-fast-whisper" transcription JSON into readable, timestamped transcript lines.
+Paste the Replicate JSON into the input box and the app will format each chunk into a timestamped line you can copy or search.
 
-https://replicate.com/vaibhavs10/incredibly-fast-whisper
+Live demo: https://whisp-stamp.mindflakes.com/
 
-Pre-hosted at: https://whisp-stamp.mindflakes.com/
+Model: https://replicate.com/vaibhavs10/incredibly-fast-whisper
 
-There is a sample input in `doc/sample-replicate.json` that would be pasted into the tool.
+## Why this tool
+- Readable timestamps from Replicate chunked output
+- Fast copy/paste for SRT-like timestamps and in-page searching
 
-Here is a snippet of that JSON:
+## Key features
+- Converts per-chunk timestamps into HH:MM:SS.mmm ranges
+- Ignores empty chunks
+- Robust error handling for invalid JSON
 
-```
+## Quick example
+
+Input (from `docs/sample-replicate.json`):
+
+```json
 {
-        "text": " Hi guys, welcome back. I hope everyone enjoyed lunch. Our next presenter is George Hott.",
-        "timestamp": [
-          0,
-          7.68
-        ]
-      },
-      {
-        "text": " So please gather around and we're very excited to bring you the second half of the talks.",
-        "timestamp": [
-          7.8,
-          12.9
-        ]
-      },
-      {
-        "text": " Welcome George.",
-        "timestamp": [
-          13.36,
-          14.42
-        ]
-      },
+  "text": " Hi guys, welcome back...",
+  "timestamp": [0, 7.68]
+}
 ```
 
-The output above would be transformed into:
+Output
 
 ```
-[00:00:00.000 --> 00:00:07.680]   Hi guys, welcome back. I hope everyone enjoyed lunch. Our next presenter is George Hott.
-[00:00:07.800 --> 00:00:12.900]   So please gather around and we're very excited to bring you the second half of the talks.
-[00:00:13.360 --> 00:00:14.420]   Welcome George.
+[00:00:00.000 --> 00:00:07.680]   Hi guys, welcome back...
 ```
 
-The vision is that the tool would take the JSON input in a text area and produce the output in another text area for easy copy-pasting or in page searching.
+The sample JSON used for development is at `docs/sample-replicate.json` and a copy is also reachable at `static/docs/sample-replicate.json` when the app is running.
 
-## Local development
+## Getting started (local)
 
-Install dependencies:
+Prerequisites: Node.js 18+ and npm
 
-  npm install --legacy-peer-deps
+Install dependencies
 
-Start the dev server:
+```
+npm install
+```
 
-  npm run dev -- --open
+Start dev server (hot reload)
 
-Run tests:
+```
+npm run dev -- --open
+```
 
-  npm test
+Run tests (unit tests use Vitest):
 
-Run tests in watch mode for iterative development:
+```
+npm test
+```
 
-  npm run test:watch
+Run tests in watch mode:
 
-Show coverage after running tests:
+```
+npm run test:watch
+```
 
-  npm run test:coverage
+Show coverage
 
-Build for production (Vite):
+```
+npm run test:coverage
+```
 
-  npm run build
+Build for production
 
-Preview a production build:
+```
+npm run build
+```
 
-  npm run preview
+Preview production build
+
+```
+npm run preview
+```
 
 ## Cloudflare deployment (wrangler v4)
 
-This project uses `@sveltejs/adapter-cloudflare` and includes a sample `wrangler.toml` configured to point at the Cloudflare adapter output. Important: set the `assets.directory` to `.svelte-kit/cloudflare` in `wrangler.toml` so the worker can locate static assets created by the SvelteKit adapter.
+This project uses `@sveltejs/adapter-cloudflare`. The SvelteKit adapter builds a worker and static assets into `.svelte-kit/cloudflare`.
 
-Install wrangler locally (recommended) or use `npx` to run a version from the project devDependencies:
+Important wrangler settings
+- `assets.directory = ".svelte-kit/cloudflare"` — so static assets are available to the Worker
+- `compatibility_flags = ["nodejs_compat"]` — permits some Node builtin polyfills required by SvelteKit internals
 
-  npm install --save-dev wrangler@^4
+Install wrangler locally (recommended):
 
-Configure `wrangler.toml` with your account settings (account ID, etc.).
+```
+npm install --save-dev wrangler@^4
+```
 
-Before deploying, authenticate with Cloudflare from your terminal (or set an API token):
+Login and confirm account:
 
-  npx wrangler login
+```
+npx wrangler login
+npx wrangler whoami
+```
 
-Verify your identity with:
+Build and deploy:
 
-  npx wrangler whoami
+```
+npm run build
+npx wrangler deploy
+```
 
-If you see a warning mentioning Node.js built-ins (for example `node:async_hooks`), it means some packages import Node-specific APIs. This project opts in to Cloudflare's Node.js compatibility layer by default — see `wrangler.toml`:
+Dry run (safe):
 
-  compatibility_flags = ["nodejs_compat"]
+```
+npm run deploy:dry-run
+```
 
-That enables polyfills for many Node APIs; it's required when frameworks (such as SvelteKit internals) import Node modules that are not native to the Workers runtime. Polyfilled methods may be no-ops or partially implemented, so you should test your Worker carefully with `wrangler dev` or `wrangler deploy --dry-run`.
+Helper npm scripts
+- `npm run deploy` — build + deploy
+- `npm run deploy:dry-run` — build + deploy --dry-run
+- `npm run deploy:dev` — run the worker locally with `wrangler dev`
+- `npm run deploy:pages` — build and deploy to Cloudflare Pages
 
-Build and deploy with Wrangler v4:
+## Development notes
+- `src/lib/transform.ts` contains `jsonToTranscript` (the main transformer) and is covered by unit tests at `test/transform.test.ts`.
+- Use `npx npm-check-updates` to check available package updates.
 
-  npm run build
-  npx wrangler deploy
+## Testing and quality gates
+- Unit tests: `npm test` (Vitest)
+- Typecheck: `npm run check` (svelte-check)
+- Build: `npm run build`
 
-Or use the convenience npm scripts included in this repo:
+## License
 
-  npm run deploy          # build + npx wrangler deploy
-  npm run deploy:dry-run  # build + npx wrangler deploy --dry-run
-  npm run deploy:dev      # run the worker locally with wrangler dev
-  npm run deploy:pages    # build and use wrangler pages deploy for Pages hosting
-
-For local testing with the worker runtime, use:
-
-  npx wrangler dev
-
-If you are using Cloudflare Pages instead of running a pure Worker, you can use `wrangler pages dev` and `wrangler pages deploy` (see Cloudflare Pages docs).
+MIT — see `LICENSE` in this repository for full text.
