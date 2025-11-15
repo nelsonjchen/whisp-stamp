@@ -54,6 +54,14 @@ Run tests:
 
   npm test
 
+Run tests in watch mode for iterative development:
+
+  npm run test:watch
+
+Show coverage after running tests:
+
+  npm run test:coverage
+
 Build for production (Vite):
 
   npm run build
