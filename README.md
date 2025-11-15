@@ -80,10 +80,31 @@ Install wrangler locally (recommended) or use `npx` to run a version from the pr
 
 Configure `wrangler.toml` with your account settings (account ID, etc.).
 
+Before deploying, authenticate with Cloudflare from your terminal (or set an API token):
+
+  npx wrangler login
+
+Verify your identity with:
+
+  npx wrangler whoami
+
+If you see a warning mentioning Node.js built-ins (for example `node:async_hooks`), it means some packages import Node-specific APIs. This project opts in to Cloudflare's Node.js compatibility layer by default — see `wrangler.toml`:
+
+  compatibility_flags = ["nodejs_compat"]
+
+That enables polyfills for many Node APIs; it's required when frameworks (such as SvelteKit internals) import Node modules that are not native to the Workers runtime. Polyfilled methods may be no-ops or partially implemented, so you should test your Worker carefully with `wrangler dev` or `wrangler deploy --dry-run`.
+
 Build and deploy with Wrangler v4:
 
   npm run build
   npx wrangler deploy
+
+Or use the convenience npm scripts included in this repo:
+
+  npm run deploy          # build + npx wrangler deploy
+  npm run deploy:dry-run  # build + npx wrangler deploy --dry-run
+  npm run deploy:dev      # run the worker locally with wrangler dev
+  npm run deploy:pages    # build and use wrangler pages deploy for Pages hosting
 
 For local testing with the worker runtime, use:
 

@@ -7,4 +7,5 @@
 * Make sure to keep .gitignore updated to avoid committing unnecessary files.
 * Try to keep the repo clean of temporary or build files, run `git status` to check once in a while.
 * Try to keep packages as up to date. Use https://www.npmjs.com/package/npm-check-updates as much as possible.
+* If the Cloudflare Wrangler deploy prints a warning about Node.js APIs like `node:async_hooks`, enable `nodejs_compat` in `wrangler.toml`. This project already enables that flag to avoid runtime import errors from SvelteKit internals.
 * Reformat after edits.
