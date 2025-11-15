@@ -3,3 +3,4 @@
 * You're welcome to use SvelteKit as long as the output is compatible with Cloudflare Workers.
 * Try to run commands that time out and don't block with a UI where possible.
 * in doc/sample-replicate.json is a sample input that would be pasted into the tool.
+* `README.md` contains more context on the tool and expected input/output.
