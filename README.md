@@ -62,17 +62,23 @@ Preview a production build:
 
   npm run preview
 
-## Cloudflare deployment
+## Cloudflare deployment (wrangler v4)
 
-The project uses `@sveltejs/adapter-cloudflare`. A sample `wrangler.toml` is included. To deploy to Cloudflare Workers:
+This project uses `@sveltejs/adapter-cloudflare` and includes a sample `wrangler.toml` configured to point at the Cloudflare adapter output. Important: set the `assets.directory` to `.svelte-kit/cloudflare` in `wrangler.toml` so the worker can locate static assets created by the SvelteKit adapter.
 
-1. Install wrangler (or use the `wrangler` in devDependencies):
+Install wrangler locally (recommended) or use `npx` to run a version from the project devDependencies:
 
-  npm i -g wrangler@3
+  npm install --save-dev wrangler@^4
 
-2. Configure `wrangler.toml` with your account settings.
+Configure `wrangler.toml` with your account settings (account ID, etc.).
 
-3. Build and publish:
+Build and deploy with Wrangler v4:
 
   npm run build
-  npx wrangler publish
+  npx wrangler deploy
+
+For local testing with the worker runtime, use:
+
+  npx wrangler dev
+
+If you are using Cloudflare Pages instead of running a pure Worker, you can use `wrangler pages dev` and `wrangler pages deploy` (see Cloudflare Pages docs).
