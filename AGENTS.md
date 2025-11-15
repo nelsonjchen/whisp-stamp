@@ -4,3 +4,4 @@
 * Try to run commands that time out and don't block with a UI where possible.
 * in doc/sample-replicate.json is a sample input that would be pasted into the tool.
 * `README.md` contains more context on the tool and expected input/output.
+* Make sure to keep .gitignore updated to avoid committing unnecessary files.
