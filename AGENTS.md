@@ -6,3 +6,4 @@
 * `README.md` contains more context on the tool and expected input/output.
 * Make sure to keep .gitignore updated to avoid committing unnecessary files.
 * Try to keep the repo clean of temporary or build files, run `git status` to check once in a while.
+* Try to keep packages as up to date. Use https://www.npmjs.com/package/npm-check-updates as much as possible.
