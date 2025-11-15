@@ -39,3 +39,40 @@ The output above would be transformed into:
 ```
 
 The vision is that the tool would take the JSON input in a text area and produce the output in another text area for easy copy-pasting or in page searching.
+
+## Local development
+
+Install dependencies:
+
+  npm install --legacy-peer-deps
+
+Start the dev server:
+
+  npm run dev -- --open
+
+Run tests:
+
+  npm test
+
+Build for production (Vite):
+
+  npm run build
+
+Preview a production build:
+
+  npm run preview
+
+## Cloudflare deployment
+
+The project uses `@sveltejs/adapter-cloudflare`. A sample `wrangler.toml` is included. To deploy to Cloudflare Workers:
+
+1. Install wrangler (or use the `wrangler` in devDependencies):
+
+  npm i -g wrangler@3
+
+2. Configure `wrangler.toml` with your account settings.
+
+3. Build and publish:
+
+  npm run build
+  npx wrangler publish

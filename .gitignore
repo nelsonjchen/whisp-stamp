@@ -1,0 +1,10 @@
+node_modules/
+.svelte-kit/
+.env
+dist
+.sanity
+.vscode
+.tmp
+.DS_Store
+*.log
+tmp-svelte/
