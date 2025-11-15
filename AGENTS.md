@@ -5,3 +5,4 @@
 * in doc/sample-replicate.json is a sample input that would be pasted into the tool.
 * `README.md` contains more context on the tool and expected input/output.
 * Make sure to keep .gitignore updated to avoid committing unnecessary files.
+* Try to keep the repo clean of temporary or build files.
