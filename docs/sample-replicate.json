@@ -1,0 +1,5474 @@
+{
+  "id": "mjhxh15f1hrm80cth3ntn07j9r",
+  "model": "vaibhavs10/incredibly-fast-whisper",
+  "version": "3ab86df6c8f54c11309d4d1f930ac292bad43ace52d10c80d87eb258b3c9f79c",
+  "input": {
+    "audio": "https://replicate.delivery/pbxt/O4GireAoqkmuD0MrrfsWjypQdOENYLuXsDkusCQ9mUcBBisE/comma%20ai%20%EF%BD%9C%20COMMA%20CON%202025%20%EF%BD%9C%20George%20Hotz%20%EF%BD%9C%20Outwit%2C%20Outplay%2C%20Outlast%20%EF%BD%9C%20President%20%5Bwerrvv0MVXQ%5D.mp3",
+    "batch_size": 24,
+    "diarise_audio": false,
+    "language": "None",
+    "task": "transcribe",
+    "timestamp": "chunk"
+  },
+  "logs": "Voila!✨ Your file has been transcribed!\n",
+  "output": {
+    "chunks": [
+      {
+        "text": " Hi guys, welcome back. I hope everyone enjoyed lunch. Our next presenter is George Hott.",
+        "timestamp": [
+          0,
+          7.68
+        ]
+      },
+      {
+        "text": " So please gather around and we're very excited to bring you the second half of the talks.",
+        "timestamp": [
+          7.8,
+          12.9
+        ]
+      },
+      {
+        "text": " Welcome George.",
+        "timestamp": [
+          13.36,
+          14.42
+        ]
+      },
+      {
+        "text": " On the mic and then it turns green and then you can hear me",
+        "timestamp": [
+          22.42,
+          25.52
+        ]
+      },
+      {
+        "text": " I'll give everyone a minute to get in here",
+        "timestamp": [
+          25.52,
+          28.46
+        ]
+      },
+      {
+        "text": " I made this logo myself",
+        "timestamp": [
+          28.46,
+          31.28
+        ]
+      },
+      {
+        "text": " let's see if the clicker is going to work",
+        "timestamp": [
+          31.28,
+          36.42
+        ]
+      },
+      {
+        "text": " we only have one AI picture in the slides",
+        "timestamp": [
+          36.42,
+          38.3
+        ]
+      },
+      {
+        "text": " this whole space really is a game of Survivor.",
+        "timestamp": [
+          38.3,
+          47.4
+        ]
+      },
+      {
+        "text": " A lot of people have been voted off the island.",
+        "timestamp": [
+          48.68,
+          51.08
+        ]
+      },
+      {
+        "text": " So that's kind of what this talks about.",
+        "timestamp": [
+          53.08,
+          55.22
+        ]
+      },
+      {
+        "text": " I thought it was appropriate to steal branding from a reality show.",
+        "timestamp": [
+          55.3,
+          58.52
+        ]
+      },
+      {
+        "text": " So my name is George Hotz, and this is Outwit, Outplay, Outlast.",
+        "timestamp": [
+          59.52,
+          63.86
+        ]
+      },
+      {
+        "text": " So does this work?",
+        "timestamp": [
+          64.54,
+          67.1
+        ]
+      },
+      {
+        "text": " There we go.",
+        "timestamp": [
+          68.14,
+          68.86
+        ]
+      },
+      {
+        "text": " So you know what?",
+        "timestamp": [
+          69.34,
+          70.4
+        ]
+      },
+      {
+        "text": " I don't work at Comma anymore.",
+        "timestamp": [
+          70.88,
+          72.04
+        ]
+      },
+      {
+        "text": " I am still the president, but, you know, you heard from Adib,",
+        "timestamp": [
+          73.9,
+          78.5
+        ]
+      },
+      {
+        "text": " who presented the Comma for, and you'll hear from Harold after me.",
+        "timestamp": [
+          78.92,
+          82.62
+        ]
+      },
+      {
+        "text": " They are the executives who run the company.",
+        "timestamp": [
+          82.62,
+          84.82
+        ]
+      },
+      {
+        "text": " I am a cheerleader.",
+        "timestamp": [
+          85.36,
+          86.24
+        ]
+      },
+      {
+        "text": " So I'm mostly here to cheerlead.",
+        "timestamp": [
+          88.08,
+          90.1
+        ]
+      },
+      {
+        "text": " Sometimes I complain.",
+        "timestamp": [
+          90.68,
+          91.76
+        ]
+      },
+      {
+        "text": " You know, like, oh, man, you know,",
+        "timestamp": [
+          93.02,
+          94.34
+        ]
+      },
+      {
+        "text": " you think the cheerleaders ever complain?",
+        "timestamp": [
+          94.38,
+          95.68
+        ]
+      },
+      {
+        "text": " Like, why'd you guys lose?",
+        "timestamp": [
+          96.58,
+          98.54
+        ]
+      },
+      {
+        "text": " That sucked.",
+        "timestamp": [
+          98.76,
+          99.24
+        ]
+      },
+      {
+        "text": " I could have thrown that ball better than that.",
+        "timestamp": [
+          99.3,
+          100.48
+        ]
+      },
+      {
+        "text": " So, yeah, those are the things I do.",
+        "timestamp": [
+          102.14,
+          104.02
+        ]
+      },
+      {
+        "text": " So, you know, you're hearing from a cheerleader here. You're not hearing from anyone with any secret inside knowledge, but this has just been",
+        "timestamp": [
+          106.94,
+          111.52
+        ]
+      },
+      {
+        "text": " my observations. I used to work at Comma, so I know a little bit about it. We can talk about",
+        "timestamp": [
+          111.52,
+          115.54
+        ]
+      },
+      {
+        "text": " what the original plan was. We were going to contract with Tesla to replace Mobileye.",
+        "timestamp": [
+          115.54,
+          119.26
+        ]
+      },
+      {
+        "text": " The deal fell through. You know, we had some good press around that. That was fun, you know.",
+        "timestamp": [
+          120.5,
+          124
+        ]
+      },
+      {
+        "text": " Elon's a great guy. It's really, it's's really uh you know you just got to think about the thing",
+        "timestamp": [
+          124.26,
+          127.76
+        ]
+      },
+      {
+        "text": " i really like about elon is he inspires you even if you're his enemy if you're his friend it doesn't",
+        "timestamp": [
+          127.76,
+          133.68
+        ]
+      },
+      {
+        "text": " matter it's like it just shows you that great things are possible right and this just you know",
+        "timestamp": [
+          133.68,
+          138.8
+        ]
+      },
+      {
+        "text": " that's what makes me really happy so you know even though the contract fell through it's great things",
+        "timestamp": [
+          138.8,
+          143.2
+        ]
+      },
+      {
+        "text": " are possible, right?",
+        "timestamp": [
+          143.2,
+          145.02
+        ]
+      },
+      {
+        "text": " So we're going to build Autopilot anyway, right?",
+        "timestamp": [
+          146.88,
+          146.92
+        ]
+      },
+      {
+        "text": " My contract was to replace Mobileye and the original Tesla Autopilot.",
+        "timestamp": [
+          149.7,
+          150.82
+        ]
+      },
+      {
+        "text": " We build it anyway, and we're going to sell it to car makers.",
+        "timestamp": [
+          153.56,
+          154.6
+        ]
+      },
+      {
+        "text": " You know, a lot of people are like, George, George, why doesn't Kama work with car makers?",
+        "timestamp": [
+          157.42,
+          157.66
+        ]
+      },
+      {
+        "text": " You know, this was the original plan.",
+        "timestamp": [
+          158.84,
+          159.44
+        ]
+      },
+      {
+        "text": " We were going to go sell to car makers, right?",
+        "timestamp": [
+          162.36,
+          162.58
+        ]
+      },
+      {
+        "text": " But so we built it.",
+        "timestamp": [
+          165.68,
+          166.26
+        ]
+      },
+      {
+        "text": " We built it.",
+        "timestamp": [
+          166.84,
+          168.62
+        ]
+      },
+      {
+        "text": " This was the original Kama car.",
+        "timestamp": [
+          169.88,
+          171.06
+        ]
+      },
+      {
+        "text": " I stole this from another",
+        "timestamp": [
+          172.46,
+          173.84
+        ]
+      },
+      {
+        "text": " TV franchise. We got Engage.",
+        "timestamp": [
+          173.84,
+          175.56
+        ]
+      },
+      {
+        "text": " Right?",
+        "timestamp": [
+          176.2,
+          176.28
+        ]
+      },
+      {
+        "text": " This was on Bloomberg",
+        "timestamp": [
+          177.86,
+          179.02
+        ]
+      },
+      {
+        "text": " 10 years ago. We had all this",
+        "timestamp": [
+          179.02,
+          181.5
+        ]
+      },
+      {
+        "text": " stuff. I think Adib",
+        "timestamp": [
+          181.5,
+          183.7
+        ]
+      },
+      {
+        "text": " talked about this a little.",
+        "timestamp": [
+          183.7,
+          184.8
+        ]
+      },
+      {
+        "text": " Hots added a joystick to the car center console.",
+        "timestamp": [
+          185.34,
+          187.82
+        ]
+      },
+      {
+        "text": " A pull of the trigger engages the self-driving system, right?",
+        "timestamp": [
+          187.98,
+          191.1
+        ]
+      },
+      {
+        "text": " Why did I use the cruise control button?",
+        "timestamp": [
+          192.6,
+          194.28
+        ]
+      },
+      {
+        "text": " But business, so this works.",
+        "timestamp": [
+          196.06,
+          199.28
+        ]
+      },
+      {
+        "text": " It was actually really good.",
+        "timestamp": [
+          199.82,
+          201.28
+        ]
+      },
+      {
+        "text": " We did a road trip to Vegas.",
+        "timestamp": [
+          202.1,
+          204.32
+        ]
+      },
+      {
+        "text": " We're driving. It's not quite as good as modern open pilot, but a lot of it was really good. We did a road trip to Vegas. We're driving.",
+        "timestamp": [
+          204.32,
+          205.46
+        ]
+      },
+      {
+        "text": " It's not quite as good as modern OpenPilot,",
+        "timestamp": [
+          206.66,
+          208.6
+        ]
+      },
+      {
+        "text": " but a lot of it was there.",
+        "timestamp": [
+          208.6,
+          209.8
+        ]
+      },
+      {
+        "text": " A lot of the stuff we've done for the last 10 years",
+        "timestamp": [
+          209.8,
+          212.32
+        ]
+      },
+      {
+        "text": " was shipability.",
+        "timestamp": [
+          212.32,
+          213.34
+        ]
+      },
+      {
+        "text": " So we build this, and I'm like, okay,",
+        "timestamp": [
+          214.42,
+          216.14
+        ]
+      },
+      {
+        "text": " so now I just gotta talk to the...",
+        "timestamp": [
+          216.14,
+          218.56
+        ]
+      },
+      {
+        "text": " That's the only AI-gener generated photo in the slides.",
+        "timestamp": [
+          222.04,
+          225
+        ]
+      },
+      {
+        "text": " It's kinda like, hello Mr. Ford.",
+        "timestamp": [
+          225.12,
+          227.86
+        ]
+      },
+      {
+        "text": " Yes, okay, so you see this?",
+        "timestamp": [
+          229.14,
+          231.08
+        ]
+      },
+      {
+        "text": " This, and Mr., you don't, what do you mean,",
+        "timestamp": [
+          232.8,
+          237.52
+        ]
+      },
+      {
+        "text": " you don't know what a PID loop is?",
+        "timestamp": [
+          237.52,
+          239.64
+        ]
+      },
+      {
+        "text": " No, no, no, no, but like, no, it's using like an AI model",
+        "timestamp": [
+          239.64,
+          241.66
+        ]
+      },
+      {
+        "text": " and predicting the steering angle",
+        "timestamp": [
+          241.66,
+          242.54
+        ]
+      },
+      {
+        "text": " and putting that to a PID loop. Oh.",
+        "timestamp": [
+          242.54,
+          247.38
+        ]
+      },
+      {
+        "text": " Yeah.",
+        "timestamp": [
+          247.78,
+          249.74
+        ]
+      },
+      {
+        "text": " I mean, it might as well be AI generated, right?",
+        "timestamp": [
+          251.94,
+          252.04
+        ]
+      },
+      {
+        "text": " There is no Mr. Ford.",
+        "timestamp": [
+          254.32,
+          254.72
+        ]
+      },
+      {
+        "text": " I was misled by how Tesla was run because there actually is a Mr. Tesla.",
+        "timestamp": [
+          256.78,
+          258.72
+        ]
+      },
+      {
+        "text": " You can go to Elon and say you're using a neural network",
+        "timestamp": [
+          259.1,
+          261.48
+        ]
+      },
+      {
+        "text": " with a PID loop, and he's like,",
+        "timestamp": [
+          261.48,
+          262.64
+        ]
+      },
+      {
+        "text": " that's shit, we got model predictive control.",
+        "timestamp": [
+          262.7,
+          264.4
+        ]
+      },
+      {
+        "text": " So it turns out you can't just do this.",
+        "timestamp": [
+          266.94,
+          269.64
+        ]
+      },
+      {
+        "text": " And even people today say, well, why doesn't Common work with car makers?",
+        "timestamp": [
+          269.8,
+          272.66
+        ]
+      },
+      {
+        "text": " And I want you to take that and then think about that a little bit more",
+        "timestamp": [
+          272.86,
+          276.4
+        ]
+      },
+      {
+        "text": " and think about how that might actually happen.",
+        "timestamp": [
+          276.4,
+          278.4
+        ]
+      },
+      {
+        "text": " Notice that a lot of people have this idea.",
+        "timestamp": [
+          279.84,
+          281.8
+        ]
+      },
+      {
+        "text": " A lot of companies have the idea that they're going to sell to car makers.",
+        "timestamp": [
+          282.82,
+          286.64
+        ]
+      },
+      {
+        "text": " And we're going to look later in this slide into how it worked out for them.",
+        "timestamp": [
+          288.04,
+          292.64
+        ]
+      },
+      {
+        "text": " So giving up on this idea was the right move.",
+        "timestamp": [
+          293.34,
+          298.12
+        ]
+      },
+      {
+        "text": " I understand that it doesn't feel right.",
+        "timestamp": [
+          298.68,
+          300.98
+        ]
+      },
+      {
+        "text": " I understand that people have this idea that, well, but you should.",
+        "timestamp": [
+          300.98,
+          304.2
+        ]
+      },
+      {
+        "text": " That's what makes you a legitimate business. Look at my figurehead polishing machine. It is fake legitimacy.",
+        "timestamp": [
+          304.32,
+          312.66
+        ]
+      },
+      {
+        "text": " So we're going to pivot. I think I just sell to car makers. Who came up with this idea? No? Me?",
+        "timestamp": [
+          314.6,
+          321.8
+        ]
+      },
+      {
+        "text": " Let's fire that guy. We're going to pivot. And what are we going to pivot me? Oh, fire that guy. Pivot, and what are we gonna pivot to?",
+        "timestamp": [
+          322.46,
+          327.02
+        ]
+      },
+      {
+        "text": " Well, can a cell phone drive a car?",
+        "timestamp": [
+          327.02,
+          329.56
+        ]
+      },
+      {
+        "text": " That's kind of the original question.",
+        "timestamp": [
+          329.56,
+          330.88
+        ]
+      },
+      {
+        "text": " We thought about all that stuff and we're like,",
+        "timestamp": [
+          330.88,
+          332.7
+        ]
+      },
+      {
+        "text": " can we run all of this on a cell phone?",
+        "timestamp": [
+          332.7,
+          334.82
+        ]
+      },
+      {
+        "text": " And the answer was yes, and we did it in about six months.",
+        "timestamp": [
+          336,
+          339.72
+        ]
+      },
+      {
+        "text": " And then we launched the Comma One.",
+        "timestamp": [
+          339.72,
+          341.84
+        ]
+      },
+      {
+        "text": " Comma One was shipping by the end of the year for $9.99 and $24 a month,",
+        "timestamp": [
+          342.94,
+          348.06
+        ]
+      },
+      {
+        "text": " right, which is actually exactly what the Comma 4 is. The Comma 4 is $9.99 and, you know, optional,",
+        "timestamp": [
+          348.5,
+          354.64
+        ]
+      },
+      {
+        "text": " $24 a month. We don't have a page on the website describing it now, but you guys should buy Prime",
+        "timestamp": [
+          354.76,
+          358.68
+        ]
+      },
+      {
+        "text": " anyway. It's in the FAQ, don't worry. But yeah, no, it's the exact same thing. It's the exact same thing it's the exact same thing but I didn't realize actually",
+        "timestamp": [
+          358.68,
+          368.74
+        ]
+      },
+      {
+        "text": " how hard this was many times in my life I've been hit by Dunning-Kruger and no one is ever",
+        "timestamp": [
+          368.74,
+          375.54
+        ]
+      },
+      {
+        "text": " going to start a company if they don't believe that things are easy right what's the saying it's",
+        "timestamp": [
+          375.54,
+          380.12
+        ]
+      },
+      {
+        "text": " you know we didn't do it because it was easy We did it because we thought it was going to be easy.",
+        "timestamp": [
+          380.12,
+          386.2
+        ]
+      },
+      {
+        "text": " Yeah, so.",
+        "timestamp": [
+          387.68,
+          388.46
+        ]
+      },
+      {
+        "text": " Yeah.",
+        "timestamp": [
+          393.14,
+          393.54
+        ]
+      },
+      {
+        "text": " I mean, like, and I didn't really, like, see it,",
+        "timestamp": [
+          394.9,
+          397.14
+        ]
+      },
+      {
+        "text": " but, like, we just kind of weren't there.",
+        "timestamp": [
+          397.2,
+          399.44
+        ]
+      },
+      {
+        "text": " Yeah.",
+        "timestamp": [
+          402.4,
+          402.8
+        ]
+      },
+      {
+        "text": " And then we got to reach out from Nishta.",
+        "timestamp": [
+          405.76,
+          408.5
+        ]
+      },
+      {
+        "text": " I'm like, oh my God, guys, guys, it's a cell phone in a plastic case.",
+        "timestamp": [
+          409.22,
+          414.1
+        ]
+      },
+      {
+        "text": " You're already harassing me and telling me you want fines.",
+        "timestamp": [
+          414.24,
+          417.4
+        ]
+      },
+      {
+        "text": " And I'm just like, you know, when they go left, you just like eat a cheesecake.",
+        "timestamp": [
+          417.6,
+          424.36
+        ]
+      },
+      {
+        "text": " You see what I mean by that? Right? It's like,",
+        "timestamp": [
+          428.44,
+          428.48
+        ]
+      },
+      {
+        "text": " you know, the saying like, when they go left, you go right. When they go left, you eat a cheesecake.",
+        "timestamp": [
+          431.54,
+          431.7
+        ]
+      },
+      {
+        "text": " Like it's like, it's like these people don't even understand. Nobody understands what's happening like right now with AI. It's so fake. And it was fake back then. It was just the beginnings of it.",
+        "timestamp": [
+          437.44,
+          445.1
+        ]
+      },
+      {
+        "text": " Now people are kind of starting to catch on.",
+        "timestamp": [
+          445.16,
+          447.96
+        ]
+      },
+      {
+        "text": " But 10 years ago, people were like, oh, the media.",
+        "timestamp": [
+          448.48,
+          450.56
+        ]
+      },
+      {
+        "text": " Oh, this is in the New York Times.",
+        "timestamp": [
+          450.88,
+          452.22
+        ]
+      },
+      {
+        "text": " That's a legitimate news source.",
+        "timestamp": [
+          452.28,
+          453.54
+        ]
+      },
+      {
+        "text": " Right now it's like the media, right?",
+        "timestamp": [
+          454.1,
+          455.74
+        ]
+      },
+      {
+        "text": " Try, try, try until you die is not what most people would advise.",
+        "timestamp": [
+          457.54,
+          460.42
+        ]
+      },
+      {
+        "text": " In this case, however, startup comma AI is probably close to calling it quits.",
+        "timestamp": [
+          460.42,
+          464.3
+        ]
+      },
+      {
+        "text": " Slash gear, 2016.",
+        "timestamp": [
+          464.72,
+          465.54
+        ]
+      },
+      {
+        "text": " Lessons from the failure of George Hotz and the Kama 1 semi-autonomous driving system, Forbes, 2016.",
+        "timestamp": [
+          466.38,
+          473.3
+        ]
+      },
+      {
+        "text": " Kama is taking its ball and going home, automotive news, 2016.",
+        "timestamp": [
+          475.24,
+          479.46
+        ]
+      },
+      {
+        "text": " Autonomous vehicle company shuts down in fear of regulation.",
+        "timestamp": [
+          480.46,
+          484.74
+        ]
+      },
+      {
+        "text": " Like, this just isn't true and it's so interesting like when you see a media story about something",
+        "timestamp": [
+          487.18,
+          492.4
+        ]
+      },
+      {
+        "text": " that you understand this is Gelman amnesia right like like you see it you",
+        "timestamp": [
+          492.4,
+          497.42
+        ]
+      },
+      {
+        "text": " see a news article let's say you know you study physics and you see a news",
+        "timestamp": [
+          497.42,
+          499.9
+        ]
+      },
+      {
+        "text": " article about physics and you're like oh god these people don't know anything",
+        "timestamp": [
+          499.9,
+          502.96
+        ]
+      },
+      {
+        "text": " about physics why can't they get a physics guy Oh international politics",
+        "timestamp": [
+          502.96,
+          506.54
+        ]
+      },
+      {
+        "text": " Wow Iran is sure causing trouble they must be really informed about this it's",
+        "timestamp": [
+          506.54,
+          512.06
+        ]
+      },
+      {
+        "text": " just like no they're so like like well",
+        "timestamp": [
+          512.06,
+          519.76
+        ]
+      },
+      {
+        "text": " skate where the puck is going not where it has been so this was the first video",
+        "timestamp": [
+          520.3,
+          524.56
+        ]
+      },
+      {
+        "text": " of open pilot driving. We open sourced it.",
+        "timestamp": [
+          524.56,
+          563.26
+        ]
+      },
+      {
+        "text": " This is the first open pilot release.",
+        "timestamp": [
+          563.26,
+          564.76
+        ]
+      },
+      {
+        "text": " Open pilot is an open sourceced it. This is the first open pilot release. Open pilot is an open source",
+        "timestamp": [
+          564.76,
+          565.92
+        ]
+      },
+      {
+        "text": " driving agent. Currently it performs the functions of ACC and LCAS for Hondas and",
+        "timestamp": [
+          565.92,
+          570.16
+        ]
+      },
+      {
+        "text": " Acuras. It's about on par with Tesla autopilot at launch and better than all",
+        "timestamp": [
+          570.16,
+          574.68
+        ]
+      },
+      {
+        "text": " other manufacturers. And that's still kind of true. So we didn't ship the Kama 1.",
+        "timestamp": [
+          574.68,
+          582.52
+        ]
+      },
+      {
+        "text": " It actually took a long time and again it really is Dunning-Kruger and it's you know no one's to blame but myself. I don't blame Nishta, I don't ship the Comma One. It actually took a long time. And again, it really is Dunning-Kruger.",
+        "timestamp": [
+          582.52,
+          586.2
+        ]
+      },
+      {
+        "text": " And no one's to blame but myself.",
+        "timestamp": [
+          586.36,
+          588
+        ]
+      },
+      {
+        "text": " I don't blame Nishta.",
+        "timestamp": [
+          588.22,
+          589.12
+        ]
+      },
+      {
+        "text": " I don't blame the media.",
+        "timestamp": [
+          589.22,
+          590.06
+        ]
+      },
+      {
+        "text": " It's fun to make fun of these people.",
+        "timestamp": [
+          590.3,
+          591.46
+        ]
+      },
+      {
+        "text": " But fundamentally, at the end of the day, I had a phone and a 3D-printed case.",
+        "timestamp": [
+          591.46,
+          595.22
+        ]
+      },
+      {
+        "text": " So four years later, we shipped a phone and a 3D-printed case.",
+        "timestamp": [
+          595.84,
+          599.54
+        ]
+      },
+      {
+        "text": " No, no, no.",
+        "timestamp": [
+          602.28,
+          602.88
+        ]
+      },
+      {
+        "text": " Look, the case is smaller.",
+        "timestamp": [
+          602.96,
+          604.4
+        ]
+      },
+      {
+        "text": " Look, we added some IRLDs down here.",
+        "timestamp": [
+          604.74,
+          606.98
+        ]
+      },
+      {
+        "text": " We added a GPS.",
+        "timestamp": [
+          607.28,
+          608.04
+        ]
+      },
+      {
+        "text": " There's a board in the back here.",
+        "timestamp": [
+          608.36,
+          609.58
+        ]
+      },
+      {
+        "text": " It's pretty nice, right?",
+        "timestamp": [
+          609.6,
+          610.24
+        ]
+      },
+      {
+        "text": " Who owned a Comma 2?",
+        "timestamp": [
+          610.28,
+          610.96
+        ]
+      },
+      {
+        "text": " I had a few people, yeah.",
+        "timestamp": [
+          612.9,
+          613.92
+        ]
+      },
+      {
+        "text": " You know, it was something.",
+        "timestamp": [
+          614.18,
+          616.06
+        ]
+      },
+      {
+        "text": " And it was $9.99 and $24 a month.",
+        "timestamp": [
+          617.84,
+          620.7
+        ]
+      },
+      {
+        "text": " So then after the Comma 2, we shipped the Comma 3.",
+        "timestamp": [
+          623.3,
+          628.54
+        ]
+      },
+      {
+        "text": " The Comma 3 was starting to look like a real product.",
+        "timestamp": [
+          628.54,
+          630.92
+        ]
+      },
+      {
+        "text": " The Comma 3 actually shipped pretty quickly after the Comma 2.",
+        "timestamp": [
+          630.92,
+          633.82
+        ]
+      },
+      {
+        "text": " Look at that open pilot.",
+        "timestamp": [
+          633.82,
+          636.44
+        ]
+      },
+      {
+        "text": " It looks pretty modern.",
+        "timestamp": [
+          636.44,
+          637.44
+        ]
+      },
+      {
+        "text": " It looks pretty good.",
+        "timestamp": [
+          637.44,
+          640.1
+        ]
+      },
+      {
+        "text": " But the Comma 3 was too expensive.",
+        "timestamp": [
+          640.1,
+          642.72
+        ]
+      },
+      {
+        "text": " Who had a Comma 3?",
+        "timestamp": [
+          642.72,
+          644.72
+        ]
+      },
+      {
+        "text": " Wow more of you than comma twos.",
+        "timestamp": [
+          644.72,
+          645.9
+        ]
+      },
+      {
+        "text": " I'm sorry you guys paid so much money.",
+        "timestamp": [
+          645.9,
+          648.12
+        ]
+      },
+      {
+        "text": " But you know what?",
+        "timestamp": [
+          648.12,
+          649.24
+        ]
+      },
+      {
+        "text": " Don't feel bad because however much money,",
+        "timestamp": [
+          649.24,
+          651.58
+        ]
+      },
+      {
+        "text": " what, you're out two grand for a comma three?",
+        "timestamp": [
+          651.58,
+          653.86
+        ]
+      },
+      {
+        "text": " We're out five million on the comma three.",
+        "timestamp": [
+          653.86,
+          656.8
+        ]
+      },
+      {
+        "text": " Comma lost five million dollars on the comma three project.",
+        "timestamp": [
+          656.8,
+          660.12
+        ]
+      },
+      {
+        "text": " Sales stagnated.",
+        "timestamp": [
+          660.12,
+          662.02
+        ]
+      },
+      {
+        "text": " The product was too expensive",
+        "timestamp": [
+          662.02,
+          663.24
+        ]
+      },
+      {
+        "text": " and undifferentiated from the two.",
+        "timestamp": [
+          663.24,
+          665.64
+        ]
+      },
+      {
+        "text": " It was a lot better.",
+        "timestamp": [
+          666.6,
+          667.1
+        ]
+      },
+      {
+        "text": " We made a lot of progress in making the thing look like a consumer electronic.",
+        "timestamp": [
+          670.7,
+          671.54
+        ]
+      },
+      {
+        "text": " But fundamentally, this didn't drive sales.",
+        "timestamp": [
+          674.54,
+          675.22
+        ]
+      },
+      {
+        "text": " This is the comma 2 era.",
+        "timestamp": [
+          676.38,
+          676.94
+        ]
+      },
+      {
+        "text": " And this is the comma 3 era.",
+        "timestamp": [
+          678.38,
+          682.82
+        ]
+      },
+      {
+        "text": " But, you know, we fixed it.",
+        "timestamp": [
+          684,
+          684.32
+        ]
+      },
+      {
+        "text": " We shipped the comma 3x. How many people had a comma 3x? All right, all right, a lot it. We shipped the Comma 3X.",
+        "timestamp": [
+          685.56,
+          685.66
+        ]
+      },
+      {
+        "text": " How many people had a Comma 3X?",
+        "timestamp": [
+          686.72,
+          687.46
+        ]
+      },
+      {
+        "text": " All right, all right, a lot more Comma 3Xs out there.",
+        "timestamp": [
+          689.72,
+          690.88
+        ]
+      },
+      {
+        "text": " And it was sold for a good price.",
+        "timestamp": [
+          692.24,
+          693.74
+        ]
+      },
+      {
+        "text": " And that fixed sales. All right, so what do you guys think?",
+        "timestamp": [
+          694.6,
+          706.84
+        ]
+      },
+      {
+        "text": " This is future-facing statements.",
+        "timestamp": [
+          710.34,
+          712.52
+        ]
+      },
+      {
+        "text": " We have future-facing statements here.",
+        "timestamp": [
+          712.62,
+          714.48
+        ]
+      },
+      {
+        "text": " Yeah.",
+        "timestamp": [
+          715.98,
+          716.14
+        ]
+      },
+      {
+        "text": " So, no, I mean, I think that...",
+        "timestamp": [
+          717.08,
+          721.84
+        ]
+      },
+      {
+        "text": " Oh, the presentation's pretty good.",
+        "timestamp": [
+          721.84,
+          723.56
+        ]
+      },
+      {
+        "text": " The website's pretty good. The website is pretty good.",
+        "timestamp": [
+          724.2,
+          725.04
+        ]
+      },
+      {
+        "text": " The device is amazing.",
+        "timestamp": [
+          726,
+          727.22
+        ]
+      },
+      {
+        "text": " None of the stuff we've shown off does justice to just how much better this device is than the old one.",
+        "timestamp": [
+          728.42,
+          734
+        ]
+      },
+      {
+        "text": " I mean, like, you see this, like, picture in the UI.",
+        "timestamp": [
+          736.88,
+          739.82
+        ]
+      },
+      {
+        "text": " And, like, it looks like, oh, you know, this could be, like, Photoshopped by some, like, fake company.",
+        "timestamp": [
+          739.82,
+          743.3
+        ]
+      },
+      {
+        "text": " You know, it's so difficult today to tell the difference between what's fake and what's real.",
+        "timestamp": [
+          743.38,
+          747.54
+        ]
+      },
+      {
+        "text": " Because what makes something real is an incredibly difficult engineering problem.",
+        "timestamp": [
+          748.56,
+          755.72
+        ]
+      },
+      {
+        "text": " And hopefully we conveyed some of that to you today, how just insanely difficult it is to make",
+        "timestamp": [
+          756.48,
+          762.62
+        ]
+      },
+      {
+        "text": " this device. And people are like, oh, you want an 8-year-old mobile phone chip.",
+        "timestamp": [
+          762.62,
+          765.76
+        ]
+      },
+      {
+        "text": " None of that matters.",
+        "timestamp": [
+          766.08,
+          767.26
+        ]
+      },
+      {
+        "text": " My Apple II was more responsive.",
+        "timestamp": [
+          767.84,
+          769.8
+        ]
+      },
+      {
+        "text": " Apple II running VisiCalc was more responsive",
+        "timestamp": [
+          771.5,
+          774.14
+        ]
+      },
+      {
+        "text": " than my M4 MacBook running Google Sheets.",
+        "timestamp": [
+          774.14,
+          777.2
+        ]
+      },
+      {
+        "text": " Why is this?",
+        "timestamp": [
+          778.04,
+          779.06
+        ]
+      },
+      {
+        "text": " It's just due to this insane complexity of software.",
+        "timestamp": [
+          779.88,
+          784.22
+        ]
+      },
+      {
+        "text": " None of it has anything to do with the actual hardware.",
+        "timestamp": [
+          784.76,
+          787.28
+        ]
+      },
+      {
+        "text": " This thing is 10 years of refinement in a piece of software.",
+        "timestamp": [
+          788.72,
+          792.82
+        ]
+      },
+      {
+        "text": " You saw the first version of the software.",
+        "timestamp": [
+          793.02,
+          794.26
+        ]
+      },
+      {
+        "text": " You see the current version of the software.",
+        "timestamp": [
+          794.36,
+          795.38
+        ]
+      },
+      {
+        "text": " I'm hearing about mutation testing this morning.",
+        "timestamp": [
+          795.44,
+          797.14
+        ]
+      },
+      {
+        "text": " I'm like, damn, we've got to put that in TinyGrad.",
+        "timestamp": [
+          797.24,
+          798.98
+        ]
+      },
+      {
+        "text": " But yeah, I mean, I think this is the first one that is a",
+        "timestamp": [
+          803.04,
+          806.64
+        ]
+      },
+      {
+        "text": " it's really a top tier consumer electronic",
+        "timestamp": [
+          806.64,
+          809.74
+        ]
+      },
+      {
+        "text": " I love consumer electronics",
+        "timestamp": [
+          809.74,
+          812.28
+        ]
+      },
+      {
+        "text": " Adib really loves consumer electronics",
+        "timestamp": [
+          812.28,
+          813.78
+        ]
+      },
+      {
+        "text": " yeah it's really",
+        "timestamp": [
+          813.78,
+          816.4
+        ]
+      },
+      {
+        "text": " if you buy this device",
+        "timestamp": [
+          816.4,
+          820.04
+        ]
+      },
+      {
+        "text": " and get one shipped to you",
+        "timestamp": [
+          820.04,
+          821.74
+        ]
+      },
+      {
+        "text": " I think you'll find it",
+        "timestamp": [
+          821.74,
+          824.04
+        ]
+      },
+      {
+        "text": " it might actually be the best unboxing experience you've ever had and get one shipped to you, I think you'll find it...",
+        "timestamp": [
+          824.04,
+          825.18
+        ]
+      },
+      {
+        "text": " It might actually be the best unboxing experience",
+        "timestamp": [
+          825.18,
+          828.42
+        ]
+      },
+      {
+        "text": " you've ever had.",
+        "timestamp": [
+          828.42,
+          828.92
+        ]
+      },
+      {
+        "text": " And I don't say this like...",
+        "timestamp": [
+          830.16,
+          831.8
+        ]
+      },
+      {
+        "text": " I say this, I'm actually thinking about it, right?",
+        "timestamp": [
+          831.8,
+          833.46
+        ]
+      },
+      {
+        "text": " Because when people buy a new laptop,",
+        "timestamp": [
+          834.1,
+          837.08
+        ]
+      },
+      {
+        "text": " it's like, okay, it's a little bit better than the old one.",
+        "timestamp": [
+          837.34,
+          839.68
+        ]
+      },
+      {
+        "text": " And if you guys had a Comma,",
+        "timestamp": [
+          839.94,
+          841.18
+        ]
+      },
+      {
+        "text": " maybe some of the magic would be lost.",
+        "timestamp": [
+          841.26,
+          843.26
+        ]
+      },
+      {
+        "text": " But for someone who's never had this,",
+        "timestamp": [
+          843.26,
+          844.9
+        ]
+      },
+      {
+        "text": " for someone to realize that you can buy a little device",
+        "timestamp": [
+          845.98,
+          849.64
+        ]
+      },
+      {
+        "text": " that fits in the palm of your hand, stick it on your windshield,",
+        "timestamp": [
+          849.64,
+          852.02
+        ]
+      },
+      {
+        "text": " and it drives the car, that's magic.",
+        "timestamp": [
+          852.16,
+          854.46
+        ]
+      },
+      {
+        "text": " And you can describe it to a six-year-old.",
+        "timestamp": [
+          855.7,
+          857.38
+        ]
+      },
+      {
+        "text": " So here's your test.",
+        "timestamp": [
+          858.3,
+          859.18
+        ]
+      },
+      {
+        "text": " Here's your test for all technology.",
+        "timestamp": [
+          859.28,
+          861.28
+        ]
+      },
+      {
+        "text": " Whenever someone tells you that they have some new technology,",
+        "timestamp": [
+          861.28,
+          863.48
+        ]
+      },
+      {
+        "text": " oh, we're building humanoid robots. Okay, cool. Can I have one over and have it cook me some pasta?",
+        "timestamp": [
+          863.62,
+          870.42
+        ]
+      },
+      {
+        "text": " No, that doesn't exist. But you wouldn't know it. You wouldn't know it. If you consume media,",
+        "timestamp": [
+          871.62,
+          876.74
+        ]
+      },
+      {
+        "text": " if you consume advertising, all of this stuff looks possible that's fake.",
+        "timestamp": [
+          876.74,
+          883.08
+        ]
+      },
+      {
+        "text": " all of this stuff looks possible that's fake.",
+        "timestamp": [
+          883.08,
+          883.84
+        ]
+      },
+      {
+        "text": " Oh, AI coding is going to lay off 30% of engineers,",
+        "timestamp": [
+          887.4,
+          887.98
+        ]
+      },
+      {
+        "text": " like actual AI coding.",
+        "timestamp": [
+          889.5,
+          890.12
+        ]
+      },
+      {
+        "text": " You can't even use these things for customer support jobs.",
+        "timestamp": [
+          892.22,
+          893.54
+        ]
+      },
+      {
+        "text": " The disconnect from reality and hype is insane. And I don't have any language to convey.",
+        "timestamp": [
+          897.98,
+          901.38
+        ]
+      },
+      {
+        "text": " I'm not better at hype and better at advertising than those people.",
+        "timestamp": [
+          903.9,
+          908.66
+        ]
+      },
+      {
+        "text": " They're actually better at it than me. But what Kama is better at is making a product.",
+        "timestamp": [
+          908.76,
+          914.56
+        ]
+      },
+      {
+        "text": " So I think if you've never driven a Kama and you buy this Kama 4, it might be the best",
+        "timestamp": [
+          915.78,
+          920.76
+        ]
+      },
+      {
+        "text": " consumer electron experience, consumer electron experience you've had since, I don't know, you guys remember",
+        "timestamp": [
+          920.76,
+          927.42
+        ]
+      },
+      {
+        "text": " getting an N64 when you were a kid? Those are the real magic ones, right? Because from",
+        "timestamp": [
+          927.42,
+          931.98
+        ]
+      },
+      {
+        "text": " the SNES to the N64, that was magic. From the PlayStation 4 to the PlayStation 5, and",
+        "timestamp": [
+          931.98,
+          937.7
+        ]
+      },
+      {
+        "text": " now I'm playing Modern Warfare 6 instead of Modern Warfare 5. Well, it's not really better,",
+        "timestamp": [
+          937.7,
+          940.92
+        ]
+      },
+      {
+        "text": " but they're shutting the server down for Modern Warfare 5. So it's a top-tier consumer electronics.",
+        "timestamp": [
+          941.02,
+          947.12
+        ]
+      },
+      {
+        "text": " Look at this great circuit board.",
+        "timestamp": [
+          947.2,
+          948.14
+        ]
+      },
+      {
+        "text": " Now, that's the circuit board from the Comma 3.",
+        "timestamp": [
+          949.96,
+          951.64
+        ]
+      },
+      {
+        "text": " That's the circuit board from the Comma 4.",
+        "timestamp": [
+          952.08,
+          953.3
+        ]
+      },
+      {
+        "text": " Adiba already went through this, but, yeah, I mean, that's on par with the true state of the art.",
+        "timestamp": [
+          955.38,
+          963.02
+        ]
+      },
+      {
+        "text": " Like I said, we have an SMT line that's, yeah,",
+        "timestamp": [
+          963.7,
+          966.5
+        ]
+      },
+      {
+        "text": " doing things that they're not doing",
+        "timestamp": [
+          966.56,
+          967.8
+        ]
+      },
+      {
+        "text": " in the fanciest SMT lines in China.",
+        "timestamp": [
+          967.8,
+          969.08
+        ]
+      },
+      {
+        "text": " Vapor phase oven, 3D optical inspection.",
+        "timestamp": [
+          970.52,
+          974.5
+        ]
+      },
+      {
+        "text": " They're good about inspection,",
+        "timestamp": [
+          974.94,
+          975.72
+        ]
+      },
+      {
+        "text": " but they don't have the nice ovens.",
+        "timestamp": [
+          975.86,
+          977.14
+        ]
+      },
+      {
+        "text": " That's what the front of it looks like.",
+        "timestamp": [
+          977.92,
+          979.18
+        ]
+      },
+      {
+        "text": " This is an LTE modem, GPS antenna.",
+        "timestamp": [
+          979.76,
+          982.16
+        ]
+      },
+      {
+        "text": " I did have a contribution to this.",
+        "timestamp": [
+          982.72,
+          984.9
+        ]
+      },
+      {
+        "text": " I did, I did. Even though I'm a cheerleader, I cheerlead for something. I wanted the GPS antenna to be big. There was going to be a",
+        "timestamp": [
+          986.44,
+          990.94
+        ]
+      },
+      {
+        "text": " small GPS antenna, but I'm like, the photons come from the sky, and here's the antenna,",
+        "timestamp": [
+          990.94,
+          994.62
+        ]
+      },
+      {
+        "text": " and you've got to hit the... So, yeah, camera board connector. What's it very low dynamic range. It's hard to see. What is success?",
+        "timestamp": [
+          994.62,
+          1017
+        ]
+      },
+      {
+        "text": " These are the kind of questions you start to think about. Who succeeded?",
+        "timestamp": [
+          1017,
+          1025.44
+        ]
+      },
+      {
+        "text": " I should have included this in the talk.",
+        "timestamp": [
+          1027.56,
+          1027.88
+        ]
+      },
+      {
+        "text": " There's a great quote from Jensen.",
+        "timestamp": [
+          1029.26,
+          1030.1
+        ]
+      },
+      {
+        "text": " This man owns the biggest company in the world.",
+        "timestamp": [
+          1031.92,
+          1033.22
+        ]
+      },
+      {
+        "text": " And he's like talking,",
+        "timestamp": [
+          1034,
+          1034.06
+        ]
+      },
+      {
+        "text": " he's just like talking cat in an interview.",
+        "timestamp": [
+          1035.42,
+          1035.54
+        ]
+      },
+      {
+        "text": " He's like, man, you know,",
+        "timestamp": [
+          1036.56,
+          1036.64
+        ]
+      },
+      {
+        "text": " if I'd known how much like,",
+        "timestamp": [
+          1037.88,
+          1037.98
+        ]
+      },
+      {
+        "text": " oh, how much headache it was going to be and how hard it was going to be,",
+        "timestamp": [
+          1039.36,
+          1040.34
+        ]
+      },
+      {
+        "text": " I never would have done it.",
+        "timestamp": [
+          1040.4,
+          1041.16
+        ]
+      },
+      {
+        "text": " I love this.",
+        "timestamp": [
+          1043.6,
+          1044.28
+        ]
+      },
+      {
+        "text": " I mean, I love this.",
+        "timestamp": [
+          1044.36,
+          1045.2
+        ]
+      },
+      {
+        "text": " I love, you know, it's great that he, you know,",
+        "timestamp": [
+          1045.2,
+          1047.4
+        ]
+      },
+      {
+        "text": " it's great to see the success of people like that.",
+        "timestamp": [
+          1047.4,
+          1051.56
+        ]
+      },
+      {
+        "text": " And, yeah, I mean, if the top company in the world,",
+        "timestamp": [
+          1052.1,
+          1056.1
+        ]
+      },
+      {
+        "text": " the greatest founder in history,",
+        "timestamp": [
+          1060.56,
+          1062.08
+        ]
+      },
+      {
+        "text": " this is the biggest company in history, is saying this,",
+        "timestamp": [
+          1062.08,
+          1064.8
+        ]
+      },
+      {
+        "text": " you know, then what is success?",
+        "timestamp": [
+          1064.8,
+          1066.06
+        ]
+      },
+      {
+        "text": " And you think about a game of chess.",
+        "timestamp": [
+          1067.06,
+          1068.4
+        ]
+      },
+      {
+        "text": " You think about what success means in a game of chess.",
+        "timestamp": [
+          1068.98,
+          1071.14
+        ]
+      },
+      {
+        "text": " Success is when you win, right?",
+        "timestamp": [
+          1072.76,
+          1075.32
+        ]
+      },
+      {
+        "text": " And you might lose, you might draw,",
+        "timestamp": [
+          1076.14,
+          1078.48
+        ]
+      },
+      {
+        "text": " but either way the game ends.",
+        "timestamp": [
+          1078.88,
+          1080.06
+        ]
+      },
+      {
+        "text": " Chess is a finite game.",
+        "timestamp": [
+          1081.38,
+          1082.44
+        ]
+      },
+      {
+        "text": " But what does success look like in an infinite game",
+        "timestamp": [
+          1086.98,
+          1087.84
+        ]
+      },
+      {
+        "text": " success is simply surviving",
+        "timestamp": [
+          1087.84,
+          1092.52
+        ]
+      },
+      {
+        "text": " so uh",
+        "timestamp": [
+          1092.52,
+          1097.36
+        ]
+      },
+      {
+        "text": " you know let's you Thank you. The American Pronunciation Guide Presents ''How to Pronounce Keith Rabois''",
+        "timestamp": [
+          1097.36,
+          1147
+        ]
+      },
+      {
+        "text": " This is the founder's phone back, Keith Rabois.",
+        "timestamp": [
+          1162,
+          1164
+        ]
+      },
+      {
+        "text": " The founder of this company steals all the comma rhetoric,",
+        "timestamp": [
+          1164,
+          1166.72
+        ]
+      },
+      {
+        "text": " literally steals all my rhetoric,",
+        "timestamp": [
+          1167.24,
+          1168.7
+        ]
+      },
+      {
+        "text": " has over 10x the funding.",
+        "timestamp": [
+          1170.28,
+          1172.9
+        ]
+      },
+      {
+        "text": " Oh, they're going to ship.",
+        "timestamp": [
+          1174.78,
+          1176.06
+        ]
+      },
+      {
+        "text": " Oh, now it's automaker partners,",
+        "timestamp": [
+          1176.78,
+          1177.92
+        ]
+      },
+      {
+        "text": " but originally they were going to ship a kit to put it on your car.",
+        "timestamp": [
+          1178,
+          1180.5
+        ]
+      },
+      {
+        "text": " $220 million. Who remembers Embark? Did a SPAC. Did anyone ever do a SPAC and succeed?",
+        "timestamp": [
+          1182.5,
+          1197.9
+        ]
+      },
+      {
+        "text": " Did anyone ever go, oh yeah, I'm so glad I invested in that SPAC, bro. Come on.",
+        "timestamp": [
+          1198.5,
+          1203.78
+        ]
+      },
+      {
+        "text": " in that SPAC, bro. Come on. I was on a panel with these people. I hear myself talking and I'm just like, oh my God, you have no idea what the hell I'm saying. They're actually",
+        "timestamp": [
+          1211.8,
+          1217.14
+        ]
+      },
+      {
+        "text": " being investigated now for selling secrets to the Chinese or whatever. My thing is just",
+        "timestamp": [
+          1217.14,
+          1222.06
+        ]
+      },
+      {
+        "text": " like, what secrets?",
+        "timestamp": [
+          1222.06,
+          1225.02
+        ]
+      },
+      {
+        "text": " Billion-dollar hit on Argo, right?",
+        "timestamp": [
+          1226.76,
+          1226.8
+        ]
+      },
+      {
+        "text": " This was the Ford-Volkswagen joint one.",
+        "timestamp": [
+          1229.98,
+          1230.08
+        ]
+      },
+      {
+        "text": " Shifts its bet to driver assist tech.",
+        "timestamp": [
+          1232.18,
+          1232.28
+        ]
+      },
+      {
+        "text": " Yeah, you can right now go use a blue blues cruise on your Ford,",
+        "timestamp": [
+          1237.12,
+          1237.2
+        ]
+      },
+      {
+        "text": " or you can buy a Comma.",
+        "timestamp": [
+          1238.42,
+          1240.06
+        ]
+      },
+      {
+        "text": " How many billions, you know?",
+        "timestamp": [
+          1241.56,
+          1242.34
+        ]
+      },
+      {
+        "text": " And then there's the really big one, of course.",
+        "timestamp": [
+          1244.1,
+          1248.44
+        ]
+      },
+      {
+        "text": " Despite $10 billion spent.",
+        "timestamp": [
+          1250.68,
+          1252.34
+        ]
+      },
+      {
+        "text": " Did you know that Cruise was originally,",
+        "timestamp": [
+          1253.98,
+          1254.22
+        ]
+      },
+      {
+        "text": " I talked about this in last year's Comic-Con,",
+        "timestamp": [
+          1256.16,
+          1256.36
+        ]
+      },
+      {
+        "text": " or two years ago Comic-Con.",
+        "timestamp": [
+          1257.36,
+          1257.74
+        ]
+      },
+      {
+        "text": " Cruise was originally building a $10,000 aftermarket kit for Audi A-Force.",
+        "timestamp": [
+          1261.4,
+          1262.96
+        ]
+      },
+      {
+        "text": " Kyle Vogt gave up on this dream.",
+        "timestamp": [
+          1264.56,
+          1267.32
+        ]
+      },
+      {
+        "text": " He gave up, he talks about this on Lex Friedman,",
+        "timestamp": [
+          1267.32,
+          1269.08
+        ]
+      },
+      {
+        "text": " because it was too hard.",
+        "timestamp": [
+          1269.08,
+          1270.58
+        ]
+      },
+      {
+        "text": " There are too many different cars",
+        "timestamp": [
+          1270.58,
+          1271.76
+        ]
+      },
+      {
+        "text": " you're gonna have to support.",
+        "timestamp": [
+          1271.76,
+          1273.7
+        ]
+      },
+      {
+        "text": " Figuring out how to support all those cars is too hard,",
+        "timestamp": [
+          1273.7,
+          1277.82
+        ]
+      },
+      {
+        "text": " and figuring out a graceful degradation",
+        "timestamp": [
+          1277.82,
+          1281.24
+        ]
+      },
+      {
+        "text": " if everything isn't working perfectly is too difficult.",
+        "timestamp": [
+          1281.24,
+          1285.14
+        ]
+      },
+      {
+        "text": " Comma solved all these problems years ago.",
+        "timestamp": [
+          1286.66,
+          1287.18
+        ]
+      },
+      {
+        "text": " None of this stuff was hard, right?",
+        "timestamp": [
+          1288.64,
+          1288.92
+        ]
+      },
+      {
+        "text": " But then people look, and it drives me crazy.",
+        "timestamp": [
+          1292.08,
+          1292.3
+        ]
+      },
+      {
+        "text": " It's like there's still people out there who think Cruise is a bigger success than Comma.",
+        "timestamp": [
+          1297.26,
+          1299.64
+        ]
+      },
+      {
+        "text": " They lost $10 billion!",
+        "timestamp": [
+          1301.04,
+          1304.72
+        ]
+      },
+      {
+        "text": " I don't even know what to say.",
+        "timestamp": [
+          1307.22,
+          1307.9
+        ]
+      },
+      {
+        "text": " Like reality comes and smacks you in the face,",
+        "timestamp": [
+          1310.38,
+          1310.44
+        ]
+      },
+      {
+        "text": " and you're like, yeah, yeah, that was, yeah, yeah.",
+        "timestamp": [
+          1313.06,
+          1313.14
+        ]
+      },
+      {
+        "text": " No, but it was a good run, man.",
+        "timestamp": [
+          1314.28,
+          1314.3
+        ]
+      },
+      {
+        "text": " It was a good run.",
+        "timestamp": [
+          1314.98,
+          1316.26
+        ]
+      },
+      {
+        "text": " For $10 billion, you could have had six of these.",
+        "timestamp": [
+          1320.3,
+          1321.2
+        ]
+      },
+      {
+        "text": " It's the biggest building in the world.",
+        "timestamp": [
+          1322.68,
+          1322.9
+        ]
+      },
+      {
+        "text": " We could have had one in Chicago.",
+        "timestamp": [
+          1324.18,
+          1324.32
+        ]
+      },
+      {
+        "text": " We could have had one in San Francisco. We could have had one in LA. We could have one in San Francisco. We could have had one in LA.",
+        "timestamp": [
+          1325.44,
+          1326.36
+        ]
+      },
+      {
+        "text": " We could have one in here in San Diego.",
+        "timestamp": [
+          1326.36,
+          1328.24
+        ]
+      },
+      {
+        "text": " But no, we had Cruise.",
+        "timestamp": [
+          1328.24,
+          1329.88
+        ]
+      },
+      {
+        "text": " Oh yeah, yeah, by the way, Kyle Vogt,",
+        "timestamp": [
+          1332.08,
+          1333.46
+        ]
+      },
+      {
+        "text": " he's looking for investors.",
+        "timestamp": [
+          1333.46,
+          1334.5
+        ]
+      },
+      {
+        "text": " He started a company called The Bot Company.",
+        "timestamp": [
+          1334.5,
+          1336.74
+        ]
+      },
+      {
+        "text": " They raised $150 million.",
+        "timestamp": [
+          1336.74,
+          1338.4
+        ]
+      },
+      {
+        "text": " They're building humanoid robots, guys.",
+        "timestamp": [
+          1338.4,
+          1340.78
+        ]
+      },
+      {
+        "text": " Yeah, yeah.",
+        "timestamp": [
+          1340.78,
+          1342.6
+        ]
+      },
+      {
+        "text": " Self-driving, that was too hard, but humanoid robots?",
+        "timestamp": [
+          1342.6,
+          1346
+        ]
+      },
+      {
+        "text": " We chose self-driving because it's the easiest problem in applied AI, and it's still not close to done.",
+        "timestamp": [
+          1346,
+          1353
+        ]
+      },
+      {
+        "text": " We can get to some things about that in a little bit, but humanoid robots are way harder.",
+        "timestamp": [
+          1353,
+          1359
+        ]
+      },
+      {
+        "text": " Humanoid robots are so much harder than self-driving cars.",
+        "timestamp": [
+          1359,
+          1362
+        ]
+      },
+      {
+        "text": " And so, you know, if you like losing money,",
+        "timestamp": [
+          1362,
+          1365.14
+        ]
+      },
+      {
+        "text": " I mean, you can say it was a good ride.",
+        "timestamp": [
+          1365.32,
+          1367.02
+        ]
+      },
+      {
+        "text": " Or invest in the new Burj Dubai.",
+        "timestamp": [
+          1368.02,
+          1369.66
+        ]
+      },
+      {
+        "text": " I believe that.",
+        "timestamp": [
+          1369.74,
+          1370.38
+        ]
+      },
+      {
+        "text": " Someone should build that.",
+        "timestamp": [
+          1370.54,
+          1371.34
+        ]
+      },
+      {
+        "text": " Or actually, I really want to build a large statue of Taylor Swift.",
+        "timestamp": [
+          1371.58,
+          1374.34
+        ]
+      },
+      {
+        "text": " Like, I want to build, like, a 500-foot stone statue of Taylor Swift",
+        "timestamp": [
+          1375.36,
+          1379.14
+        ]
+      },
+      {
+        "text": " on that highway from L.A. to Vegas.",
+        "timestamp": [
+          1379.14,
+          1381
+        ]
+      },
+      {
+        "text": " It's going to be sick.",
+        "timestamp": [
+          1381.78,
+          1382.48
+        ]
+      },
+      {
+        "text": " It's my Taylor Swift statue.",
+        "timestamp": [
+          1382.84,
+          1383.96
+        ]
+      },
+      {
+        "text": " If I ever get rich, that's what I'm going to Vegas. This is gonna be sick. That's my Taylor Swift statue. If I ever get rich, that's what I'm gonna do.",
+        "timestamp": [
+          1384.26,
+          1386.54
+        ]
+      },
+      {
+        "text": " So this is my slide from 2016, the players.",
+        "timestamp": [
+          1388.7,
+          1391.94
+        ]
+      },
+      {
+        "text": " So we have Google, we have Otto.",
+        "timestamp": [
+          1391.94,
+          1394.38
+        ]
+      },
+      {
+        "text": " Anthony Lewandowski walked away with a lot of money",
+        "timestamp": [
+          1395.52,
+          1397.32
+        ]
+      },
+      {
+        "text": " until they sued him for it.",
+        "timestamp": [
+          1397.32,
+          1398.96
+        ]
+      },
+      {
+        "text": " And we have Tesla.",
+        "timestamp": [
+          1398.96,
+          1400.26
+        ]
+      },
+      {
+        "text": " So, you know, yeah, let's,",
+        "timestamp": [
+          1400.26,
+          1402.4
+        ]
+      },
+      {
+        "text": " who was notably absent from the Old Town Road, you know, compilation was Waymo.",
+        "timestamp": [
+          1404.04,
+          1409.12
+        ]
+      },
+      {
+        "text": " Waymo's actually pretty cool.",
+        "timestamp": [
+          1410.46,
+          1411.5
+        ]
+      },
+      {
+        "text": " And I'm not saying this, like, ironically.",
+        "timestamp": [
+          1412.24,
+          1413.8
+        ]
+      },
+      {
+        "text": " And, like, what makes them cool is that I can download an app and use it.",
+        "timestamp": [
+          1414.14,
+          1420.04
+        ]
+      },
+      {
+        "text": " And that's, again, my test for what real technology is.",
+        "timestamp": [
+          1420.44,
+          1423.28
+        ]
+      },
+      {
+        "text": " It's not real technology if you see a video.",
+        "timestamp": [
+          1423.84,
+          1426.12
+        ]
+      },
+      {
+        "text": " It's not real technology if Waymo is talking about how we're going to help the blind get around.",
+        "timestamp": [
+          1426.32,
+          1430.64
+        ]
+      },
+      {
+        "text": " Why can't they just use Uber?",
+        "timestamp": [
+          1431.24,
+          1432.36
+        ]
+      },
+      {
+        "text": " Like, huh? I don't get it. Stop it.",
+        "timestamp": [
+          1433.48,
+          1435.74
+        ]
+      },
+      {
+        "text": " But when I can go to San Francisco and download an app and call a Waymo, that's actually pretty cool.",
+        "timestamp": [
+          1436.22,
+          1442.44
+        ]
+      },
+      {
+        "text": " They're human-supervised and quasi-tele-op.",
+        "timestamp": [
+          1444.06,
+          1445.92
+        ]
+      },
+      {
+        "text": " They're not a solution to self-driving cars.",
+        "timestamp": [
+          1446,
+          1447.56
+        ]
+      },
+      {
+        "text": " They have questionable unit economics.",
+        "timestamp": [
+          1448.18,
+          1449.74
+        ]
+      },
+      {
+        "text": " They use maps.",
+        "timestamp": [
+          1450.16,
+          1450.92
+        ]
+      },
+      {
+        "text": " But they survived and they shipped.",
+        "timestamp": [
+          1451.58,
+          1452.92
+        ]
+      },
+      {
+        "text": " And that makes them cool.",
+        "timestamp": [
+          1453.42,
+          1454.22
+        ]
+      },
+      {
+        "text": " And it's really nice to be in the car alone.",
+        "timestamp": [
+          1454.72,
+          1456.2
+        ]
+      },
+      {
+        "text": " If you read my 100x investment,",
+        "timestamp": [
+          1456.98,
+          1458.72
+        ]
+      },
+      {
+        "text": " I wrote a blog post about this in 2018.",
+        "timestamp": [
+          1459.32,
+          1460.98
+        ]
+      },
+      {
+        "text": " And my criticism of Waymo actually was not",
+        "timestamp": [
+          1461.76,
+          1463.94
+        ]
+      },
+      {
+        "text": " that it would never work.",
+        "timestamp": [
+          1463.94,
+          1464.68
+        ]
+      },
+      {
+        "text": " I remain quite optimistic",
+        "timestamp": [
+          1465.5,
+          1466.9
+        ]
+      },
+      {
+        "text": " that self-driving cars",
+        "timestamp": [
+          1466.9,
+          1467.9
+        ]
+      },
+      {
+        "text": " are going to work",
+        "timestamp": [
+          1467.9,
+          1468.68
+        ]
+      },
+      {
+        "text": " and we're going to get to",
+        "timestamp": [
+          1468.68,
+          1469.4
+        ]
+      },
+      {
+        "text": " when the timeline is.",
+        "timestamp": [
+          1469.4,
+          1470.54
+        ]
+      },
+      {
+        "text": " And I think that it's very possible",
+        "timestamp": [
+          1470.82,
+          1472.2
+        ]
+      },
+      {
+        "text": " that Waymo will actually",
+        "timestamp": [
+          1472.2,
+          1473.38
+        ]
+      },
+      {
+        "text": " have the first solution",
+        "timestamp": [
+          1473.38,
+          1474.42
+        ]
+      },
+      {
+        "text": " with these caveats.",
+        "timestamp": [
+          1474.42,
+          1476.86
+        ]
+      },
+      {
+        "text": " But the unit economics of Waymo",
+        "timestamp": [
+          1477.02,
+          1479.9
+        ]
+      },
+      {
+        "text": " would never be as good",
+        "timestamp": [
+          1479.9,
+          1481.42
+        ]
+      },
+      {
+        "text": " as the unit economics of Uber.",
+        "timestamp": [
+          1481.42,
+          1483.42
+        ]
+      },
+      {
+        "text": " A day to this girl for a bit",
+        "timestamp": [
+          1483.86,
+          1484.76
+        ]
+      },
+      {
+        "text": " who was an Uber driver.",
+        "timestamp": [
+          1484.76,
+          1485.5
+        ]
+      },
+      {
+        "text": " I'm like, I just looked at how much she was making on the rides and stuff,",
+        "timestamp": [
+          1486.34,
+          1488.54
+        ]
+      },
+      {
+        "text": " and I'm like, you're losing money.",
+        "timestamp": [
+          1488.56,
+          1489.76
+        ]
+      },
+      {
+        "text": " Like, when you take the cost of depreciation and gas and car maintenance,",
+        "timestamp": [
+          1490.72,
+          1493.6
+        ]
+      },
+      {
+        "text": " she's actually losing money.",
+        "timestamp": [
+          1493.7,
+          1494.56
+        ]
+      },
+      {
+        "text": " Uber's new system has figured out ways to prey on people",
+        "timestamp": [
+          1495.46,
+          1498.24
+        ]
+      },
+      {
+        "text": " who are bad at math, pretty much.",
+        "timestamp": [
+          1498.24,
+          1499.24
+        ]
+      },
+      {
+        "text": " Or they have, like, Uber drivers who are, like, you know,",
+        "timestamp": [
+          1499.94,
+          1502.04
+        ]
+      },
+      {
+        "text": " they carefully, like, it's so amazing when you look at the disparity of resources between an Uber driver and Uber",
+        "timestamp": [
+          1502.08,
+          1507.72
+        ]
+      },
+      {
+        "text": " and all the little tricks they can pull.",
+        "timestamp": [
+          1507.72,
+          1509.16
+        ]
+      },
+      {
+        "text": " So Waymo will never be able to compete with Uber on unit economics,",
+        "timestamp": [
+          1510.98,
+          1515.02
+        ]
+      },
+      {
+        "text": " but they actually might not have to.",
+        "timestamp": [
+          1515.98,
+          1518.08
+        ]
+      },
+      {
+        "text": " I thought that I was in the minority of people who didn't like having the person in the car,",
+        "timestamp": [
+          1518.32,
+          1522.14
+        ]
+      },
+      {
+        "text": " but I actually think that's like 80% of people.",
+        "timestamp": [
+          1522.64,
+          1524.34
+        ]
+      },
+      {
+        "text": " So Waymo, despite being tele-op",
+        "timestamp": [
+          1525.6,
+          1527.42
+        ]
+      },
+      {
+        "text": " and despite having questionable unit economics,",
+        "timestamp": [
+          1527.42,
+          1529.32
+        ]
+      },
+      {
+        "text": " may very well be a cool, successful service.",
+        "timestamp": [
+          1529.82,
+          1532.34
+        ]
+      },
+      {
+        "text": " So, you know, and it's interesting,",
+        "timestamp": [
+          1533.12,
+          1534.58
+        ]
+      },
+      {
+        "text": " you know, they take the same,",
+        "timestamp": [
+          1534.7,
+          1535.28
+        ]
+      },
+      {
+        "text": " how Waymo outlasted the competition, right?",
+        "timestamp": [
+          1535.34,
+          1537.36
+        ]
+      },
+      {
+        "text": " Surviving.",
+        "timestamp": [
+          1537.86,
+          1538.22
+        ]
+      },
+      {
+        "text": " So yeah, you know, the players in 2024, right?",
+        "timestamp": [
+          1540.16,
+          1544.1
+        ]
+      },
+      {
+        "text": " Like who's left?",
+        "timestamp": [
+          1544.18,
+          1544.66
+        ]
+      },
+      {
+        "text": " Did I miss anyone?",
+        "timestamp": [
+          1547.92,
+          1548.9
+        ]
+      },
+      {
+        "text": " Zooks, okay, okay.",
+        "timestamp": [
+          1552,
+          1553.2
+        ]
+      },
+      {
+        "text": " To be fair, Zooks has something.",
+        "timestamp": [
+          1553.3,
+          1555.6
+        ]
+      },
+      {
+        "text": " Does the car drive in all directions anymore?",
+        "timestamp": [
+          1556,
+          1557.92
+        ]
+      },
+      {
+        "text": " Something, something, something.",
+        "timestamp": [
+          1561.64,
+          1562.68
+        ]
+      },
+      {
+        "text": " But no, I mean, look, the big player here is, of course, Tesla.",
+        "timestamp": [
+          1563.7,
+          1567.24
+        ]
+      },
+      {
+        "text": " It's always been Tesla.",
+        "timestamp": [
+          1567.56,
+          1568.46
+        ]
+      },
+      {
+        "text": " We can just talk about, since the beginning,",
+        "timestamp": [
+          1569.92,
+          1573.1
+        ]
+      },
+      {
+        "text": " we've always talked about how far we are behind Tesla.",
+        "timestamp": [
+          1573.24,
+          1575.78
+        ]
+      },
+      {
+        "text": " And it has stayed that way.",
+        "timestamp": [
+          1577.04,
+          1578.32
+        ]
+      },
+      {
+        "text": " They have managed to stay about two or three years ahead of us continually.",
+        "timestamp": [
+          1579,
+          1583.96
+        ]
+      },
+      {
+        "text": " The new FSD, I was blown",
+        "timestamp": [
+          1583.96,
+          1587.24
+        ]
+      },
+      {
+        "text": " away. Like at the leaps that were made from like the FSD 12 that I tried that I",
+        "timestamp": [
+          1587.24,
+          1592.22
+        ]
+      },
+      {
+        "text": " was like this is literally worse than open pilot to like FSD 14 which is like",
+        "timestamp": [
+          1592.22,
+          1595.46
+        ]
+      },
+      {
+        "text": " alright they figured something out we got to figure that out too. I think we got it.",
+        "timestamp": [
+          1595.46,
+          1598.66
+        ]
+      },
+      {
+        "text": " I think we got it. But you can look at the fleet size. This is the Waymo fleet, the",
+        "timestamp": [
+          1598.66,
+          1604.38
+        ]
+      },
+      {
+        "text": " Comma fleet, Tesla fleet. Comm This is the Waymo fleet, the Comma fleet, the Tesla fleet.",
+        "timestamp": [
+          1604.38,
+          1606
+        ]
+      },
+      {
+        "text": " Comma is the second largest video-connected fleet after Tesla.",
+        "timestamp": [
+          1606,
+          1610
+        ]
+      },
+      {
+        "text": " And these are our growth numbers.",
+        "timestamp": [
+          1610,
+          1613
+        ]
+      },
+      {
+        "text": " So we have almost 7,000 dailies and almost 12,000 monthlies.",
+        "timestamp": [
+          1613,
+          1620
+        ]
+      },
+      {
+        "text": " So yeah, we're gathering big data, but again, there's really only one company to compare",
+        "timestamp": [
+          1620,
+          1629.38
+        ]
+      },
+      {
+        "text": " yourself to in this space, and it's Tesla.",
+        "timestamp": [
+          1629.38,
+          1631.96
+        ]
+      },
+      {
+        "text": " So let's talk about our distance to Tesla.",
+        "timestamp": [
+          1631.96,
+          1634
+        ]
+      },
+      {
+        "text": " Here's some breakdowns of some different axes, right?",
+        "timestamp": [
+          1634,
+          1636.2
+        ]
+      },
+      {
+        "text": " So when you look at the difference in fleet size between Kama and Tesla, we're off by",
+        "timestamp": [
+          1636.2,
+          1639.5
+        ]
+      },
+      {
+        "text": " three orders of magnitude.",
+        "timestamp": [
+          1639.5,
+          1640.5
+        ]
+      },
+      {
+        "text": " So Kama's 10K, Tesla's about 10 million.",
+        "timestamp": [
+          1640.5,
+          1643.56
+        ]
+      },
+      {
+        "text": " When you look at the total number of training, total amount of training compute that we have, you can see the tiny",
+        "timestamp": [
+          1643.56,
+          1648.96
+        ]
+      },
+      {
+        "text": " box pros over there. You'll hear about them more in the talk later. We have about 1,000",
+        "timestamp": [
+          1648.96,
+          1654.92
+        ]
+      },
+      {
+        "text": " GPUs. Tesla has about 100,000 GPUs. So we're off by two orders of magnitude there. Inference",
+        "timestamp": [
+          1654.92,
+          1661.62
+        ]
+      },
+      {
+        "text": " compute, which is how much compute is actually on the device.",
+        "timestamp": [
+          1661.62,
+          1665
+        ]
+      },
+      {
+        "text": " So if you heard about the 10-watt version and the 100-watt version, right?",
+        "timestamp": [
+          1665,
+          1668
+        ]
+      },
+      {
+        "text": " The 100-watt version is not a different device.",
+        "timestamp": [
+          1668,
+          1670
+        ]
+      },
+      {
+        "text": " It's literally just a GPU that plugs into your Comma 4.",
+        "timestamp": [
+          1670,
+          1673
+        ]
+      },
+      {
+        "text": " It's a consumer GPU that plugs into your Comma 4.",
+        "timestamp": [
+          1673,
+          1676
+        ]
+      },
+      {
+        "text": " Your average consumer GPU has the same power as the Tesla FSD AI computer.",
+        "timestamp": [
+          1676,
+          1683
+        ]
+      },
+      {
+        "text": " You know, Tesla will never tell you this, but like a 5090 crushes it.",
+        "timestamp": [
+          1683,
+          1688.54
+        ]
+      },
+      {
+        "text": " A 5070, that's about the same.",
+        "timestamp": [
+          1688.54,
+          1690.36
+        ]
+      },
+      {
+        "text": " But a lot of this is just because of power.",
+        "timestamp": [
+          1691.72,
+          1693.66
+        ]
+      },
+      {
+        "text": " Right, the Tesla thing draws 300 watts,",
+        "timestamp": [
+          1693.66,
+          1695.2
+        ]
+      },
+      {
+        "text": " a 5090 draws 600 watts.",
+        "timestamp": [
+          1695.2,
+          1696.86
+        ]
+      },
+      {
+        "text": " So yeah, inference compute, Tesla's ahead",
+        "timestamp": [
+          1698.36,
+          1700.22
+        ]
+      },
+      {
+        "text": " by two orders of magnitude, but we'll get to that one later,",
+        "timestamp": [
+          1700.22,
+          1703.18
+        ]
+      },
+      {
+        "text": " and then we have yearly spend.",
+        "timestamp": [
+          1703.18,
+          1704.72
+        ]
+      },
+      {
+        "text": " So comms yearly spend is about 10 million, Tesla's about 100 billion, so that's four orders of magnitude, but we'll get to that one later. And then we have yearly spend. So comms yearly spend is about 10 million. Tesla is about 100 billion. So that's four",
+        "timestamp": [
+          1704.72,
+          1708.68
+        ]
+      },
+      {
+        "text": " orders of magnitude. So training compute, we closed from three orders of magnitude to",
+        "timestamp": [
+          1708.68,
+          1713.72
+        ]
+      },
+      {
+        "text": " two orders of magnitude by building our computer factory. Inference compute, we've closed from",
+        "timestamp": [
+          1713.72,
+          1720.16
+        ]
+      },
+      {
+        "text": " two orders of magnitude to zero orders of magnitude. So over there on the table, we",
+        "timestamp": [
+          1720.16,
+          1724.68
+        ]
+      },
+      {
+        "text": " have the comma compute boxes,",
+        "timestamp": [
+          1724.68,
+          1725.94
+        ]
+      },
+      {
+        "text": " but that's what the comma compute box really is.",
+        "timestamp": [
+          1726.12,
+          1728
+        ]
+      },
+      {
+        "text": " This is a AMD RTX 9060 XT.",
+        "timestamp": [
+          1728.56,
+          1732.76
+        ]
+      },
+      {
+        "text": " It's a $300 GPU, 205 tops,",
+        "timestamp": [
+          1734.96,
+          1738.24
+        ]
+      },
+      {
+        "text": " and it already just works with the comma 3, 3X, and 4.",
+        "timestamp": [
+          1738.66,
+          1741.84
+        ]
+      },
+      {
+        "text": " The software won't come to the 3,",
+        "timestamp": [
+          1742.42,
+          1743.78
+        ]
+      },
+      {
+        "text": " but the software will come to the 3x and four,",
+        "timestamp": [
+          1743.86,
+          1745.22
+        ]
+      },
+      {
+        "text": " and someone can backport it to the three if they want.",
+        "timestamp": [
+          1745.3,
+          1747.38
+        ]
+      },
+      {
+        "text": " Nice power enclosure coming soon,",
+        "timestamp": [
+          1747.84,
+          1750.22
+        ]
+      },
+      {
+        "text": " or you can build your own out of parts on Amazon.",
+        "timestamp": [
+          1750.34,
+          1752.14
+        ]
+      },
+      {
+        "text": " We'll charge some amount of markup for the nice box,",
+        "timestamp": [
+          1753.94,
+          1756.4
+        ]
+      },
+      {
+        "text": " but you're welcome to build your own.",
+        "timestamp": [
+          1756.98,
+          1758.24
+        ]
+      },
+      {
+        "text": " Okay.",
+        "timestamp": [
+          1760.2,
+          1760.4
+        ]
+      },
+      {
+        "text": " So how much longer to solve self-driving?",
+        "timestamp": [
+          1763.22,
+          1764.76
+        ]
+      },
+      {
+        "text": " Okay.",
+        "timestamp": [
+          1760.4,
+          1763.14
+        ]
+      },
+      {
+        "text": " So how much longer to solve self-driving?",
+        "timestamp": [
+          1764.76,
+          1768.8
+        ]
+      },
+      {
+        "text": " This is teslafsdtracker.com.",
+        "timestamp": [
+          1771.52,
+          1773.1
+        ]
+      },
+      {
+        "text": " It's probably the best way to kind of get at this.",
+        "timestamp": [
+          1775.86,
+          1775.94
+        ]
+      },
+      {
+        "text": " We have an internal version of this,",
+        "timestamp": [
+          1777.22,
+          1777.34
+        ]
+      },
+      {
+        "text": " but it's a little bit different.",
+        "timestamp": [
+          1778.48,
+          1778.98
+        ]
+      },
+      {
+        "text": " I mean, like, Tesla and Kama are pushing on fundamentally different things.",
+        "timestamp": [
+          1780.5,
+          1781.98
+        ]
+      },
+      {
+        "text": " Tesla's slogan, or Kama's slogan is make driving chill.",
+        "timestamp": [
+          1782.78,
+          1785.58
+        ]
+      },
+      {
+        "text": " Our question is like how do we achieve highway perfection?",
+        "timestamp": [
+          1786.58,
+          1789.48
+        ]
+      },
+      {
+        "text": " Tesla's question is how can I ship this crazy feature?",
+        "timestamp": [
+          1791.58,
+          1794.78
+        ]
+      },
+      {
+        "text": " Right, like look at this crazy feature",
+        "timestamp": [
+          1794.78,
+          1796.04
+        ]
+      },
+      {
+        "text": " is kind of like Tesla's unofficial slogan.",
+        "timestamp": [
+          1796.04,
+          1798.58
+        ]
+      },
+      {
+        "text": " So yeah, you can look at the numbers",
+        "timestamp": [
+          1798.58,
+          1800.14
+        ]
+      },
+      {
+        "text": " and you can look, the FSD14 has really,",
+        "timestamp": [
+          1800.14,
+          1803.7
+        ]
+      },
+      {
+        "text": " the felt experience is really noticeable in data.",
+        "timestamp": [
+          1803.7,
+          1809.74
+        ]
+      },
+      {
+        "text": " However, every order of magnitude takes the same amount of time.",
+        "timestamp": [
+          1811.62,
+          1816.3
+        ]
+      },
+      {
+        "text": " There's a simple way to predict how long things are going to take.",
+        "timestamp": [
+          1817,
+          1819.88
+        ]
+      },
+      {
+        "text": " Human car accidents happen about every 500,000 miles.",
+        "timestamp": [
+          1820.72,
+          1825.92
+        ]
+      },
+      {
+        "text": " If you believe FSD tracker, current Tesla stuff is around 3,000 miles per critical disengagement.",
+        "timestamp": [
+          1828.92,
+          1832.8
+        ]
+      },
+      {
+        "text": " It gets about 2x better every year.",
+        "timestamp": [
+          1832.8,
+          1835.8
+        ]
+      },
+      {
+        "text": " If you want to figure out how long something's gonna take,",
+        "timestamp": [
+          1835.8,
+          1839.04
+        ]
+      },
+      {
+        "text": " take the trend line and continue it.",
+        "timestamp": [
+          1839.04,
+          1842.04
+        ]
+      },
+      {
+        "text": " We have eight more years.",
+        "timestamp": [
+          1842.96,
+          1844.96
+        ]
+      },
+      {
+        "text": " And you know what? Whenever I make, like, whenever I say eight years, there's two groups of people. There's two groups of people. One's like, no, man,",
+        "timestamp": [
+          1850.06,
+          1854.86
+        ]
+      },
+      {
+        "text": " have you seen what ChatGBG can do? It's going to be, like, next week. And, of course, those people",
+        "timestamp": [
+          1854.9,
+          1859.04
+        ]
+      },
+      {
+        "text": " are never right. But there's another group of people out there, too, who says, no, man, you know,",
+        "timestamp": [
+          1859.04,
+          1863.58
+        ]
+      },
+      {
+        "text": " AI is never going to have, like, the human reasoning needed to drive a car or something.",
+        "timestamp": [
+          1863.6,
+          1867.94
+        ]
+      },
+      {
+        "text": " Or the brain is, it's just like, you're not right either.",
+        "timestamp": [
+          1868.1,
+          1870.92
+        ]
+      },
+      {
+        "text": " The actual timeline is going to be about eight years.",
+        "timestamp": [
+          1871.62,
+          1875.48
+        ]
+      },
+      {
+        "text": " And that's for Tesla.",
+        "timestamp": [
+          1879.18,
+          1880.18
+        ]
+      },
+      {
+        "text": " If Tesla will be there in eight, we'll be there in ten. So, you know, we're halfway.",
+        "timestamp": [
+          1882.8,
+          1900.2
+        ]
+      },
+      {
+        "text": " And this is my last slide. I want you guys to remember something else that's lost in a lot of self-driving car rhetoric.",
+        "timestamp": [
+          1900.2,
+          1906.96
+        ]
+      },
+      {
+        "text": " A self-driving car is not a car.",
+        "timestamp": [
+          1908.32,
+          1910.7
+        ]
+      },
+      {
+        "text": " I have no idea why Cruz and Waymo and Zoox decided to build cars.",
+        "timestamp": [
+          1911.66,
+          1916.04
+        ]
+      },
+      {
+        "text": " It's nonsense.",
+        "timestamp": [
+          1917.14,
+          1917.88
+        ]
+      },
+      {
+        "text": " A self-driving car is a dude.",
+        "timestamp": [
+          1918.54,
+          1921.76
+        ]
+      },
+      {
+        "text": " He's the self-driving.",
+        "timestamp": [
+          1923.08,
+          1924.62
+        ]
+      },
+      {
+        "text": " That's a car. We just want to build a self-driving. We don't want to build a dude. He's the self-driving. That's a car.",
+        "timestamp": [
+          1925.16,
+          1926.02
+        ]
+      },
+      {
+        "text": " We just want to build a self-driving.",
+        "timestamp": [
+          1926.9,
+          1928.52
+        ]
+      },
+      {
+        "text": " We don't want to build a car.",
+        "timestamp": [
+          1928.7,
+          1929.9
+        ]
+      },
+      {
+        "text": " The ultimate comma",
+        "timestamp": [
+          1931.08,
+          1933.08
+        ]
+      },
+      {
+        "text": " is not a device that plugs into your car.",
+        "timestamp": [
+          1933.08,
+          1936.08
+        ]
+      },
+      {
+        "text": " It's a robot that gets in the driver's seat.",
+        "timestamp": [
+          1936.4,
+          1938.5
+        ]
+      },
+      {
+        "text": " That's where we're going.",
+        "timestamp": [
+          1940.18,
+          1941.28
+        ]
+      },
+      {
+        "text": " Why should we,",
+        "timestamp": [
+          1942.3,
+          1943.16
+        ]
+      },
+      {
+        "text": " oh, you're going to crack the Toyota should we oh oh you gotta crack the toyota security oh no who cares build a robot that gets in the seat and grabs the wheel and",
+        "timestamp": [
+          1943.16,
+          1951.2
+        ]
+      },
+      {
+        "text": " turns the wheel now don't do this tomorrow because it's not gonna work right having",
+        "timestamp": [
+          1951.2,
+          1958.24
+        ]
+      },
+      {
+        "text": " accurate predictions about technology is super important if you want to know where to do investment. I wish VCs understood any concept of this. But yeah, OpenPilot is a general purpose robotics operating system.",
+        "timestamp": [
+          1958.24,
+          1974.82
+        ]
+      },
+      {
+        "text": " OpenPilot, everyone always says, oh, comma, you're going to die if you don't partner with",
+        "timestamp": [
+          1974.82,
+          1978.84
+        ]
+      },
+      {
+        "text": " car makers. Everyone's going to get security. Or, oh, my God, I don't care. I want to build",
+        "timestamp": [
+          1978.84,
+          1982.86
+        ]
+      },
+      {
+        "text": " a robot. I want it to cook and clean for me. But like actually do this. Not build up some hype. In the same way Cruise told",
+        "timestamp": [
+          1982.86,
+          1991.96
+        ]
+      },
+      {
+        "text": " you they were going to solve self-driving and wasted $10 billion, you're going to see",
+        "timestamp": [
+          1992.6,
+          1995.68
+        ]
+      },
+      {
+        "text": " all the same stuff happen in humanoid robots. And guess who's going to be there to pick",
+        "timestamp": [
+          1995.68,
+          1999.7
+        ]
+      },
+      {
+        "text": " up the pieces? Kama and Tesla. Same people who are there today. So, yeah. No, I mean, the Kama",
+        "timestamp": [
+          1999.7,
+          2009.18
+        ]
+      },
+      {
+        "text": " 9 is going to be that guy. Get your car. Is it compatible with my car? Yeah, bro. He sits",
+        "timestamp": [
+          2009.18,
+          2014.76
+        ]
+      },
+      {
+        "text": " in the seat. All right. That's my talk. I'll take questions.",
+        "timestamp": [
+          2014.76,
+          2019.6
+        ]
+      },
+      {
+        "text": " All right. Do we have some questions?",
+        "timestamp": [
+          2027.62,
+          2030.72
+        ]
+      },
+      {
+        "text": " I just want to say I'm ready for the comma nine.",
+        "timestamp": [
+          2032.96,
+          2033.26
+        ]
+      },
+      {
+        "text": " Yeah, right?",
+        "timestamp": [
+          2033.96,
+          2035.12
+        ]
+      },
+      {
+        "text": " Do you see any reason to shorten that two-year gap after Tesla?",
+        "timestamp": [
+          2037.96,
+          2038.16
+        ]
+      },
+      {
+        "text": " Would you want to make that shorter?",
+        "timestamp": [
+          2039.18,
+          2039.38
+        ]
+      },
+      {
+        "text": " Are you fine being at that?",
+        "timestamp": [
+          2040.7,
+          2041.24
+        ]
+      },
+      {
+        "text": " So when you look at some of the fundamental things, like that training order of magnitude thing, so Comma's new compute cluster cost about",
+        "timestamp": [
+          2043.72,
+          2048.94
+        ]
+      },
+      {
+        "text": " two million dollars. Tesla's new compute cluster cost about at minimum 200",
+        "timestamp": [
+          2048.94,
+          2054.94
+        ]
+      },
+      {
+        "text": " million. Right, so it's even more, more like 500 million. So they're paying a ton",
+        "timestamp": [
+          2054.94,
+          2060.32
+        ]
+      },
+      {
+        "text": " of premium to be early. I don't think it's worth it. I'm certainly okay with being two years behind,",
+        "timestamp": [
+          2060.32,
+          2067.04
+        ]
+      },
+      {
+        "text": " meaning if you could have a sustainable business",
+        "timestamp": [
+          2069.04,
+          2070.62
+        ]
+      },
+      {
+        "text": " in the meantime.",
+        "timestamp": [
+          2070.62,
+          2072.12
+        ]
+      },
+      {
+        "text": " What might shorten that gap, if it turns out",
+        "timestamp": [
+          2072.12,
+          2074.6
+        ]
+      },
+      {
+        "text": " the Comma 4 sells wildly more than expected,",
+        "timestamp": [
+          2074.6,
+          2078.3
+        ]
+      },
+      {
+        "text": " and we have tons and tons of money coming in,",
+        "timestamp": [
+          2078.3,
+          2080.5
+        ]
+      },
+      {
+        "text": " we may be able to deploy it somewhat to shorten that gap,",
+        "timestamp": [
+          2080.5,
+          2083.76
+        ]
+      },
+      {
+        "text": " but I can't even make any guarantees. If I could make guarantees, maybe it's worth raising that gap, but I can't even make any guarantees.",
+        "timestamp": [
+          2083.76,
+          2085.5
+        ]
+      },
+      {
+        "text": " If I can make guarantees, maybe it's worth raising the money,",
+        "timestamp": [
+          2085.5,
+          2087.8
+        ]
+      },
+      {
+        "text": " but you can't make guarantees.",
+        "timestamp": [
+          2087.8,
+          2089.7
+        ]
+      },
+      {
+        "text": " But I do think that maybe if we, you know,",
+        "timestamp": [
+          2089.7,
+          2092.12
+        ]
+      },
+      {
+        "text": " again, the most important thing is survival.",
+        "timestamp": [
+          2092.12,
+          2096.06
+        ]
+      },
+      {
+        "text": " So the question is not do you want to shorten that gap?",
+        "timestamp": [
+          2096.06,
+          2099.96
+        ]
+      },
+      {
+        "text": " The question is how much extra risk are you willing",
+        "timestamp": [
+          2099.96,
+          2103.06
+        ]
+      },
+      {
+        "text": " to take to shorten that gap?",
+        "timestamp": [
+          2103.06,
+          2104.14
+        ]
+      },
+      {
+        "text": " And the answer is zero.",
+        "timestamp": [
+          2104.14,
+          2107.76
+        ]
+      },
+      {
+        "text": " I was just curious, when you speak about this being comma nine and cooking and cleaning and all those sort of things,",
+        "timestamp": [
+          2111.02,
+          2113.18
+        ]
+      },
+      {
+        "text": " do you mean that literally that the final form factor of a comma",
+        "timestamp": [
+          2113.34,
+          2116.16
+        ]
+      },
+      {
+        "text": " would be a general purpose robot?",
+        "timestamp": [
+          2116.16,
+          2117.6
+        ]
+      },
+      {
+        "text": " Of course.",
+        "timestamp": [
+          2117.72,
+          2117.98
+        ]
+      },
+      {
+        "text": " Okay, wow.",
+        "timestamp": [
+          2118.28,
+          2118.7
+        ]
+      },
+      {
+        "text": " Yeah.",
+        "timestamp": [
+          2118.7,
+          2118.92
+        ]
+      },
+      {
+        "text": " The car thing is just, again,",
+        "timestamp": [
+          2120.18,
+          2122.48
+        ]
+      },
+      {
+        "text": " cars are just the best applied AI problem that exists today.",
+        "timestamp": [
+          2122.62,
+          2124.92
+        ]
+      },
+      {
+        "text": " Self-driving cars are going to be solved long before humanoid robotics.",
+        "timestamp": [
+          2125.08,
+          2128.3
+        ]
+      },
+      {
+        "text": " But yeah, what, we're going to stop?",
+        "timestamp": [
+          2129.86,
+          2131.38
+        ]
+      },
+      {
+        "text": " Oh, guys, guys, guys, innovation's over. Let's exploit.",
+        "timestamp": [
+          2131.9,
+          2134.64
+        ]
+      },
+      {
+        "text": " Right? Yeah, let's crank up the monthly subscriptions on people.",
+        "timestamp": [
+          2135.1,
+          2138.02
+        ]
+      },
+      {
+        "text": " Let's put some ads in that shit. Yeah.",
+        "timestamp": [
+          2138.12,
+          2139.98
+        ]
+      },
+      {
+        "text": " What am I going to do with the money?",
+        "timestamp": [
+          2140.2,
+          2141.92
+        ]
+      },
+      {
+        "text": " All these people who are like, I got rich. What did you buy?",
+        "timestamp": [
+          2142.64,
+          2145.6
+        ]
+      },
+      {
+        "text": " There's nothing to buy.",
+        "timestamp": [
+          2146.64,
+          2148.16
+        ]
+      },
+      {
+        "text": " Taylor Swift statue.",
+        "timestamp": [
+          2149.22,
+          2150.28
+        ]
+      },
+      {
+        "text": " Taylor Swift statue.",
+        "timestamp": [
+          2151.42,
+          2152.38
+        ]
+      },
+      {
+        "text": " Good point.",
+        "timestamp": [
+          2152.46,
+          2152.82
+        ]
+      },
+      {
+        "text": " It's actually, I think it can be done pretty cheaply.",
+        "timestamp": [
+          2153.1,
+          2155.44
+        ]
+      },
+      {
+        "text": " I'm not licensing Taylor Swift, by the way.",
+        "timestamp": [
+          2156.5,
+          2158.48
+        ]
+      },
+      {
+        "text": " It's called generic female pop star, if anybody asks.",
+        "timestamp": [
+          2158.54,
+          2161.12
+        ]
+      },
+      {
+        "text": " See, actually, I could probably do this today, but I would need time.",
+        "timestamp": [
+          2162.48,
+          2167
+        ]
+      },
+      {
+        "text": " So I share the sentiment that human robotics startups are dumb, they will fail, but what",
+        "timestamp": [
+          2173.18,
+          2178.22
+        ]
+      },
+      {
+        "text": " makes Tesla Optimus a good bet? Or is it a good bet?",
+        "timestamp": [
+          2178.22,
+          2183.22
+        ]
+      },
+      {
+        "text": " Yeah, do you know what Honda Asima was?",
+        "timestamp": [
+          2183.22,
+          2185.9
+        ]
+      },
+      {
+        "text": " So Honda, really in its heyday in the 90s,",
+        "timestamp": [
+          2188.3,
+          2188.34
+        ]
+      },
+      {
+        "text": " also built a humanoid robot.",
+        "timestamp": [
+          2189.42,
+          2189.82
+        ]
+      },
+      {
+        "text": " For a largely successful car company to take 0.1% of their operating budget",
+        "timestamp": [
+          2192.48,
+          2195.24
+        ]
+      },
+      {
+        "text": " and dump it into humanoid robots for press,",
+        "timestamp": [
+          2195.24,
+          2197.26
+        ]
+      },
+      {
+        "text": " great idea.",
+        "timestamp": [
+          2197.6,
+          2198.1
+        ]
+      },
+      {
+        "text": " For a startup to raise a huge amount of money",
+        "timestamp": [
+          2198.68,
+          2201.12
+        ]
+      },
+      {
+        "text": " saying they're eventually going to pay investors back,",
+        "timestamp": [
+          2201.12,
+          2203.14
+        ]
+      },
+      {
+        "text": " that's absurd.",
+        "timestamp": [
+          2203.2,
+          2203.82
+        ]
+      },
+      {
+        "text": " Tesla's building the Optimus. Tesla already has optimists deployed they're already useful they're in the",
+        "timestamp": [
+          2204.46,
+          2208.96
+        ]
+      },
+      {
+        "text": " tesla showrooms waving to you right that's sick right spending you know 10 million 100 million",
+        "timestamp": [
+          2208.96,
+          2215.04
+        ]
+      },
+      {
+        "text": " dollars on a sick pr project for tesla that may turn into something in the future so worth it",
+        "timestamp": [
+          2215.04,
+          2220.88
+        ]
+      },
+      {
+        "text": " raising that kind of money, ridiculous.",
+        "timestamp": [
+          2221.76,
+          2225.16
+        ]
+      },
+      {
+        "text": " The reason it makes sense for Tesla is because they're a highly profitable automaker.",
+        "timestamp": [
+          2226.7,
+          2228.56
+        ]
+      },
+      {
+        "text": " Questions?",
+        "timestamp": [
+          2230.54,
+          2231.06
+        ]
+      },
+      {
+        "text": " So to continue on and look at the chasm that exists",
+        "timestamp": [
+          2235.44,
+          2238.92
+        ]
+      },
+      {
+        "text": " from where it is today to comma nine",
+        "timestamp": [
+          2238.92,
+          2241.1
+        ]
+      },
+      {
+        "text": " and that what we see now is body",
+        "timestamp": [
+          2241.1,
+          2244.12
+        ]
+      },
+      {
+        "text": " is kind of the beginning of the compute",
+        "timestamp": [
+          2244.12,
+          2246.46
+        ]
+      },
+      {
+        "text": " core for that. What are your insights around the grassroots oriented applications for comma",
+        "timestamp": [
+          2246.46,
+          2253.26
+        ]
+      },
+      {
+        "text": " body to start stepping towards a dude who gets in the car?",
+        "timestamp": [
+          2253.26,
+          2257.36
+        ]
+      },
+      {
+        "text": " Yeah, I mean, okay, so there's one example of consumer robots that actually works. Who",
+        "timestamp": [
+          2257.36,
+          2262.24
+        ]
+      },
+      {
+        "text": " knows what it is? Vacuum cleaners, right?",
+        "timestamp": [
+          2262.24,
+          2266.08
+        ]
+      },
+      {
+        "text": " So yeah, I mean, can the Comma body vacuum?",
+        "timestamp": [
+          2266.08,
+          2269.5
+        ]
+      },
+      {
+        "text": " I mean, I wanna do it a little bit differently, right?",
+        "timestamp": [
+          2269.5,
+          2270.98
+        ]
+      },
+      {
+        "text": " Like I don't really wanna build a vacuum.",
+        "timestamp": [
+          2270.98,
+          2272.5
+        ]
+      },
+      {
+        "text": " My idea is like, can we just like buy a vacuum off Amazon",
+        "timestamp": [
+          2272.5,
+          2275.14
+        ]
+      },
+      {
+        "text": " and then like, you know, have the body grab it and vacuum,",
+        "timestamp": [
+          2275.14,
+          2277.68
+        ]
+      },
+      {
+        "text": " right, it should tool use, right?",
+        "timestamp": [
+          2277.68,
+          2279.74
+        ]
+      },
+      {
+        "text": " So I think once we're at that milestone,",
+        "timestamp": [
+          2279.74,
+          2281.88
+        ]
+      },
+      {
+        "text": " we've also considered the Comma body for security.",
+        "timestamp": [
+          2281.88,
+          2285.22
+        ]
+      },
+      {
+        "text": " But then you realize that 95% of what you want",
+        "timestamp": [
+          2285.22,
+          2288.3
+        ]
+      },
+      {
+        "text": " is just a fixed mounted camera and a loud speaker.",
+        "timestamp": [
+          2288.3,
+          2291.16
+        ]
+      },
+      {
+        "text": " And good software.",
+        "timestamp": [
+          2291.16,
+          2292.94
+        ]
+      },
+      {
+        "text": " So you actually don't need the robot form factor for that.",
+        "timestamp": [
+          2292.94,
+          2295.42
+        ]
+      },
+      {
+        "text": " But vacuums are the first robotic form factor",
+        "timestamp": [
+          2295.42,
+          2298.72
+        ]
+      },
+      {
+        "text": " to pay for themselves.",
+        "timestamp": [
+          2298.72,
+          2300.24
+        ]
+      },
+      {
+        "text": " So once the Comma body, once the general purposeness",
+        "timestamp": [
+          2300.24,
+          2302.9
+        ]
+      },
+      {
+        "text": " of the Comma body is capable of grabbing",
+        "timestamp": [
+          2302.9,
+          2304.64
+        ]
+      },
+      {
+        "text": " your existing vacuum cleaner off Amazon and using it,",
+        "timestamp": [
+          2304.64,
+          2307.22
+        ]
+      },
+      {
+        "text": " then I think we can start selling the comma body into people's homes.",
+        "timestamp": [
+          2307.5,
+          2309.92
+        ]
+      },
+      {
+        "text": " But fundamentally, it has to come, and someone might figure out an application, right?",
+        "timestamp": [
+          2310.36,
+          2315.16
+        ]
+      },
+      {
+        "text": " I don't know if the body is going to be talked about more, but our goal with the new body, the first body was $1,000.",
+        "timestamp": [
+          2315.62,
+          2320.42
+        ]
+      },
+      {
+        "text": " That's insane, right?",
+        "timestamp": [
+          2321.02,
+          2322.62
+        ]
+      },
+      {
+        "text": " Like, how can we try to charge you?",
+        "timestamp": [
+          2322.64,
+          2323.88
+        ]
+      },
+      {
+        "text": " We charge you $1,000 for a comma four, and you'll use that shit 40% of your days, right? That's insane. How can we try to charge you? We charge you a thousand dollars for a Comma 4, and you'll",
+        "timestamp": [
+          2324.04,
+          2326.16
+        ]
+      },
+      {
+        "text": " use that shit 40% of your days.",
+        "timestamp": [
+          2326.16,
+          2328.08
+        ]
+      },
+      {
+        "text": " That's so worth it.",
+        "timestamp": [
+          2328.24,
+          2329.2
+        ]
+      },
+      {
+        "text": " But if you buy a Comma body, okay, it's a cool",
+        "timestamp": [
+          2330.08,
+          2332.22
+        ]
+      },
+      {
+        "text": " toy. We've got to price it more like a toy.",
+        "timestamp": [
+          2332.22,
+          2334.14
+        ]
+      },
+      {
+        "text": " So the new Comma body is going to be priced at $200.",
+        "timestamp": [
+          2334.44,
+          2336.06
+        ]
+      },
+      {
+        "text": " And I hope",
+        "timestamp": [
+          2337.14,
+          2337.96
+        ]
+      },
+      {
+        "text": " that someone out there with a Comma 4 and a Comma body",
+        "timestamp": [
+          2337.96,
+          2340.18
+        ]
+      },
+      {
+        "text": " figures out some use for these things.",
+        "timestamp": [
+          2340.18,
+          2342.14
+        ]
+      },
+      {
+        "text": " And we'll productionize it.",
+        "timestamp": [
+          2342.56,
+          2343.6
+        ]
+      },
+      {
+        "text": " But I think Unitary is making the same play, right?",
+        "timestamp": [
+          2343.84,
+          2346.04
+        ]
+      },
+      {
+        "text": " Like we bought two of those dogs, they're cool.",
+        "timestamp": [
+          2346.04,
+          2348.4
+        ]
+      },
+      {
+        "text": " But they don't make money.",
+        "timestamp": [
+          2348.4,
+          2349.62
+        ]
+      },
+      {
+        "text": " There's no way to like deploy this thing in a real application where it like",
+        "timestamp": [
+          2349.62,
+          2352.36
+        ]
+      },
+      {
+        "text": " provides value to you, it's a toy.",
+        "timestamp": [
+          2352.36,
+          2353.86
+        ]
+      },
+      {
+        "text": " So yeah, we're targeting the toy market for bodies.",
+        "timestamp": [
+          2355.02,
+          2357.72
+        ]
+      },
+      {
+        "text": " Hopefully someone will figure out what to do with it.",
+        "timestamp": [
+          2357.72,
+          2359.52
+        ]
+      },
+      {
+        "text": " The software will get better.",
+        "timestamp": [
+          2359.52,
+          2360.86
+        ]
+      },
+      {
+        "text": " But yeah, until you figure out how to make the robot do something that makes money.",
+        "timestamp": [
+          2360.86,
+          2365.98
+        ]
+      },
+      {
+        "text": " All right. Next question. Hey, George. Hey, if you were looking to put me to work,",
+        "timestamp": [
+          2373.58,
+          2373.98
+        ]
+      },
+      {
+        "text": " how much would you buy me for? Negative. Honestly, negative. And here's why, right? Like,",
+        "timestamp": [
+          2380.18,
+          2380.38
+        ]
+      },
+      {
+        "text": " so much of the fact that things don't scale is due to managerial overhead, right? So if someone comes to you and says,",
+        "timestamp": [
+          2386.12,
+          2388.12
+        ]
+      },
+      {
+        "text": " how could you put me to work?",
+        "timestamp": [
+          2388.12,
+          2389.52
+        ]
+      },
+      {
+        "text": " You're actually asking something of me.",
+        "timestamp": [
+          2389.52,
+          2391.42
+        ]
+      },
+      {
+        "text": " You're asking for me to do something, right?",
+        "timestamp": [
+          2391.42,
+          2394.32
+        ]
+      },
+      {
+        "text": " And that's why it's negative, right?",
+        "timestamp": [
+          2394.32,
+          2395.82
+        ]
+      },
+      {
+        "text": " You gotta pay me for that, right?",
+        "timestamp": [
+          2395.82,
+          2397.34
+        ]
+      },
+      {
+        "text": " The real way to be put to work",
+        "timestamp": [
+          2397.34,
+          2399.24
+        ]
+      },
+      {
+        "text": " is to go work on tiny grab bounties.",
+        "timestamp": [
+          2399.24,
+          2401.66
+        ]
+      },
+      {
+        "text": " Just go work on them.",
+        "timestamp": [
+          2401.66,
+          2402.5
+        ]
+      },
+      {
+        "text": " Or go work on comma bounties. But yeah, no,",
+        "timestamp": [
+          2402.5,
+          2405.58
+        ]
+      },
+      {
+        "text": " I think the,",
+        "timestamp": [
+          2405.66,
+          2406.3
+        ]
+      },
+      {
+        "text": " yeah, I mean,",
+        "timestamp": [
+          2407.66,
+          2408.08
+        ]
+      },
+      {
+        "text": " God, we're getting",
+        "timestamp": [
+          2408.16,
+          2408.64
+        ]
+      },
+      {
+        "text": " to the point",
+        "timestamp": [
+          2408.64,
+          2409.06
+        ]
+      },
+      {
+        "text": " where the marginal",
+        "timestamp": [
+          2409.06,
+          2409.74
+        ]
+      },
+      {
+        "text": " utility of a human",
+        "timestamp": [
+          2409.74,
+          2411.28
+        ]
+      },
+      {
+        "text": " is negative",
+        "timestamp": [
+          2411.28,
+          2411.8
+        ]
+      },
+      {
+        "text": " and that's scary,",
+        "timestamp": [
+          2411.8,
+          2412.66
+        ]
+      },
+      {
+        "text": " but.",
+        "timestamp": [
+          2412.76,
+          2412.84
+        ]
+      },
+      {
+        "text": " All right,",
+        "timestamp": [
+          2414.92,
+          2415.44
+        ]
+      },
+      {
+        "text": " another question?",
+        "timestamp": [
+          2415.52,
+          2416.12
+        ]
+      },
+      {
+        "text": " Thank you for the talk.",
+        "timestamp": [
+          2428.92,
+          2429.14
+        ]
+      },
+      {
+        "text": " I wanted to ask about the Chinese competition,",
+        "timestamp": [
+          2432.22,
+          2432.84
+        ]
+      },
+      {
+        "text": " especially like Baidu and these companies.",
+        "timestamp": [
+          2435.26,
+          2436.3
+        ]
+      },
+      {
+        "text": " What about them?",
+        "timestamp": [
+          2437.08,
+          2437.36
+        ]
+      },
+      {
+        "text": " I think they make a search engine and a maps app.",
+        "timestamp": [
+          2439.7,
+          2439.76
+        ]
+      },
+      {
+        "text": " That's kind of confusing to use.",
+        "timestamp": [
+          2440.82,
+          2441.44
+        ]
+      },
+      {
+        "text": " I think they are making 500,000 trips a week.",
+        "timestamp": [
+          2444.9,
+          2446.12
+        ]
+      },
+      {
+        "text": " Where?",
+        "timestamp": [
+          2446.26,
+          2446.8
+        ]
+      },
+      {
+        "text": " Baidu, in China.",
+        "timestamp": [
+          2447.84,
+          2448.12
+        ]
+      },
+      {
+        "text": " In what city?",
+        "timestamp": [
+          2448.56,
+          2450.24
+        ]
+      },
+      {
+        "text": " Wuxi, I think.",
+        "timestamp": [
+          2450.98,
+          2451.5
+        ]
+      },
+      {
+        "text": " I haven't been there.",
+        "timestamp": [
+          2452.02,
+          2452.4
+        ]
+      },
+      {
+        "text": " I haven't tried it.",
+        "timestamp": [
+          2453.14,
+          2453.18
+        ]
+      },
+      {
+        "text": " I mean, again,",
+        "timestamp": [
+          2453.64,
+          2453.88
+        ]
+      },
+      {
+        "text": " probably what it is,",
+        "timestamp": [
+          2455.04,
+          2455.08
+        ]
+      },
+      {
+        "text": " I'm surprised by that.",
+        "timestamp": [
+          2456,
+          2456.08
+        ]
+      },
+      {
+        "text": " I mean, Baidu's stack was open source",
+        "timestamp": [
+          2456.78,
+          2457.3
+        ]
+      },
+      {
+        "text": " at the beginning.",
+        "timestamp": [
+          2457.3,
+          2457.8
+        ]
+      },
+      {
+        "text": " Autoware.",
+        "timestamp": [
+          2459.18,
+          2459.54
+        ]
+      },
+      {
+        "text": " I don't know if it's",
+        "timestamp": [
+          2459.66,
+          2460.16
+        ]
+      },
+      {
+        "text": " still open source.",
+        "timestamp": [
+          2460.16,
+          2461.08
+        ]
+      },
+      {
+        "text": " It's Autoware, right?",
+        "timestamp": [
+          2461.44,
+          2462.24
+        ]
+      },
+      {
+        "text": " The Baidu one?",
+        "timestamp": [
+          2462.34,
+          2462.92
+        ]
+      },
+      {
+        "text": " Baidu Apollo. Yeah, yeah, yeah. Who was, Autoware was another one. Yeah, yeah, yeah. No, they were open source. Yeah's Autoware, right? The Baidu one? Baidu Apollo. Yeah, yeah, yeah.",
+        "timestamp": [
+          2464.52,
+          2466.08
+        ]
+      },
+      {
+        "text": " Who was, Autoware was another one. Yeah, yeah, yeah. No, they were open source. Yeah, it",
+        "timestamp": [
+          2466.08,
+          2469.44
+        ]
+      },
+      {
+        "text": " was Apollo. I remember their moonshot rhetoric. I wonder what's still open source. I also",
+        "timestamp": [
+          2469.44,
+          2473.36
+        ]
+      },
+      {
+        "text": " wonder how teleop it is. So, like, I think the Chinese are generally more open with showing",
+        "timestamp": [
+          2473.36,
+          2477.8
+        ]
+      },
+      {
+        "text": " you their teleop stuff. By the way, Waymo admits to teleop and you've never seen a picture,",
+        "timestamp": [
+          2477.8,
+          2482.1
+        ]
+      },
+      {
+        "text": " which means that the teleop's a lot more than you think it is, right? I think the Chinese actually",
+        "timestamp": [
+          2482.36,
+          2485.96
+        ]
+      },
+      {
+        "text": " show you, well, yeah, yeah, we hire",
+        "timestamp": [
+          2485.96,
+          2488
+        ]
+      },
+      {
+        "text": " people from this rural province to come",
+        "timestamp": [
+          2488,
+          2490.1
+        ]
+      },
+      {
+        "text": " sit in this gaming chair and drive you around.",
+        "timestamp": [
+          2490.1,
+          2492.24
+        ]
+      },
+      {
+        "text": " Okay.",
+        "timestamp": [
+          2492.6,
+          2492.86
+        ]
+      },
+      {
+        "text": " So, yeah, no, I think that a lot of this, like, teleop",
+        "timestamp": [
+          2493.78,
+          2496.08
+        ]
+      },
+      {
+        "text": " stuff is just,",
+        "timestamp": [
+          2496.08,
+          2497.36
+        ]
+      },
+      {
+        "text": " it's not self-driving cars.",
+        "timestamp": [
+          2497.94,
+          2500.22
+        ]
+      },
+      {
+        "text": " It's cool, and it might be a cool service,",
+        "timestamp": [
+          2500.38,
+          2502.42
+        ]
+      },
+      {
+        "text": " but it's not the same thing as",
+        "timestamp": [
+          2503,
+          2504.2
+        ]
+      },
+      {
+        "text": " solving the AI problem of self-driving cars.",
+        "timestamp": [
+          2504.2,
+          2506
+        ]
+      },
+      {
+        "text": " There's a lot of other fun problems to solve on the way, but yeah, I mean, that's kind of my take on Waymo and all of these kind of like robo-taxi kind of things.",
+        "timestamp": [
+          2506,
+          2512
+        ]
+      },
+      {
+        "text": " It's actually cool and it actually has carved out its own niche that has shipped, but it's not AI.",
+        "timestamp": [
+          2512,
+          2518
+        ]
+      },
+      {
+        "text": " All right, we got time for two more questions? Anyone? Thank you.",
+        "timestamp": [
+          2518,
+          2527.08
+        ]
+      },
+      {
+        "text": " Hi, George.",
+        "timestamp": [
+          2527.08,
+          2530.76
+        ]
+      },
+      {
+        "text": " You've been posting a lot lately on, well, first you started Tiny and you've been selling",
+        "timestamp": [
+          2530.76,
+          2540.94
+        ]
+      },
+      {
+        "text": " the Tiny Box. you've been selling the tiny box and then you've been posting a lot on external GPU.",
+        "timestamp": [
+          2540.94,
+          2547.5
+        ]
+      },
+      {
+        "text": " I don't know what you would call that but some way to connect a GPU to a MacBook.",
+        "timestamp": [
+          2547.5,
+          2553.32
+        ]
+      },
+      {
+        "text": " Yep.",
+        "timestamp": [
+          2553.32,
+          2553.86
+        ]
+      },
+      {
+        "text": " And so can you talk about, I guess on a small scale with that second thing,",
+        "timestamp": [
+          2553.86,
+          2558.84
+        ]
+      },
+      {
+        "text": " what you're hoping to accomplish and then more broadly,",
+        "timestamp": [
+          2558.84,
+          2562.12
+        ]
+      },
+      {
+        "text": " what do you want the ultimate goal",
+        "timestamp": [
+          2562.12,
+          2566.5
+        ]
+      },
+      {
+        "text": " of Tiny to be?",
+        "timestamp": [
+          2566.5,
+          2570.44
+        ]
+      },
+      {
+        "text": " The mission of Tiny is to commoditize the pay-to-flop.",
+        "timestamp": [
+          2570.44,
+          2575.22
+        ]
+      },
+      {
+        "text": " So what that means is right now there's an extreme premium for NVIDIA pay-to-flops.",
+        "timestamp": [
+          2575.22,
+          2581.12
+        ]
+      },
+      {
+        "text": " We'd like to bring the general price of the pay-to-flop to only be slightly above the",
+        "timestamp": [
+          2581.12,
+          2584.96
+        ]
+      },
+      {
+        "text": " cost of the silicon and the cost of the power.",
+        "timestamp": [
+          2584.96,
+          2587
+        ]
+      },
+      {
+        "text": " That's mission one. Mission two is to rethink about how software is made.",
+        "timestamp": [
+          2587,
+          2594
+        ]
+      },
+      {
+        "text": " Tiny has cut through every dependency in the NVIDIA stack. We're speaking directly over PCI to the NVIDIA GPU.",
+        "timestamp": [
+          2594,
+          2601
+        ]
+      },
+      {
+        "text": " Without NVIDIA's user space, without NVIDIA's driver, without anything from NVIDIA,",
+        "timestamp": [
+          2601,
+          2607.28
+        ]
+      },
+      {
+        "text": " without Kublas, without any of that.",
+        "timestamp": [
+          2607.36,
+          2608.54
+        ]
+      },
+      {
+        "text": " So I think that in order to get very reliable robots",
+        "timestamp": [
+          2608.92,
+          2613.88
+        ]
+      },
+      {
+        "text": " in the future, you're going to need an operating system",
+        "timestamp": [
+          2613.88,
+          2616.5
+        ]
+      },
+      {
+        "text": " that matches that level of robustness, of reliability.",
+        "timestamp": [
+          2616.5,
+          2620.8
+        ]
+      },
+      {
+        "text": " And I don't think that we're going to get that",
+        "timestamp": [
+          2621.4,
+          2623.06
+        ]
+      },
+      {
+        "text": " through things that look like the current stack.",
+        "timestamp": [
+          2623.06,
+          2624.48
+        ]
+      },
+      {
+        "text": " Tiny is radically 100x simpler than the existing stack, and that's what you're going to need to get reliability. And I don't think that we're going to get that through things that look like the current stack. Tiny is radically 100x simpler",
+        "timestamp": [
+          2624.9,
+          2627.26
+        ]
+      },
+      {
+        "text": " than the existing stack.",
+        "timestamp": [
+          2627.26,
+          2628.38
+        ]
+      },
+      {
+        "text": " And that's what you're going to need",
+        "timestamp": [
+          2628.66,
+          2629.36
+        ]
+      },
+      {
+        "text": " to get reliability of things that like,",
+        "timestamp": [
+          2629.36,
+          2631.12
+        ]
+      },
+      {
+        "text": " you know, a human is never going to glitch out",
+        "timestamp": [
+          2631.32,
+          2633.56
+        ]
+      },
+      {
+        "text": " and slam their head as hard as they can",
+        "timestamp": [
+          2633.56,
+          2634.9
+        ]
+      },
+      {
+        "text": " into the table unless there's something",
+        "timestamp": [
+          2634.9,
+          2636.04
+        ]
+      },
+      {
+        "text": " seriously wrong with that human.",
+        "timestamp": [
+          2636.04,
+          2637.18
+        ]
+      },
+      {
+        "text": " Like that's not like some probability.",
+        "timestamp": [
+          2637.46,
+          2638.8
+        ]
+      },
+      {
+        "text": " That will just never happen.",
+        "timestamp": [
+          2638.94,
+          2639.84
+        ]
+      },
+      {
+        "text": " Right?",
+        "timestamp": [
+          2640.7,
+          2640.8
+        ]
+      },
+      {
+        "text": " With computers,",
+        "timestamp": [
+          2641.18,
+          2642.14
+        ]
+      },
+      {
+        "text": " oh sorry, sorry,",
+        "timestamp": [
+          2643.06,
+          2644.06
+        ]
+      },
+      {
+        "text": " your kernel got stuck in a thing where it was servicing",
+        "timestamp": [
+          2644.18,
+          2647.92
+        ]
+      },
+      {
+        "text": " this interrupt for 300 milliseconds and the motor was at full torque.",
+        "timestamp": [
+          2647.92,
+          2651.68
+        ]
+      },
+      {
+        "text": " Okay.",
+        "timestamp": [
+          2651.68,
+          2652.68
+        ]
+      },
+      {
+        "text": " Yeah.",
+        "timestamp": [
+          2652.68,
+          2653.68
+        ]
+      },
+      {
+        "text": " So I think we need high reliability deterministic computation.",
+        "timestamp": [
+          2653.68,
+          2656.62
+        ]
+      },
+      {
+        "text": " That's kind of what Honeycrunt is.",
+        "timestamp": [
+          2656.62,
+          2658.66
+        ]
+      },
+      {
+        "text": " For robots.",
+        "timestamp": [
+          2658.66,
+          2659.66
+        ]
+      },
+      {
+        "text": " Runs in comma already.",
+        "timestamp": [
+          2659.66,
+          2661.66
+        ]
+      },
+      {
+        "text": " All right. already so all right let's George will be available also in the Q&A so let's",
+        "timestamp": [
+          2661.66,
+          2670.38
+        ]
+      },
+      {
+        "text": " we're gonna finish up with his talk thank you so much George for that",
+        "timestamp": [
+          2670.38,
+          2676.18
+        ]
+      },
+      {
+        "text": " thanks",
+        "timestamp": [
+          2678.9,
+          2681.9
+        ]
+      }
+    ],
+    "text": " Hi guys, welcome back. I hope everyone enjoyed lunch. Our next presenter is George Hott. So please gather around and we're very excited to bring you the second half of the talks. Welcome George. On the mic and then it turns green and then you can hear me I'll give everyone a minute to get in here I made this logo myself let's see if the clicker is going to work we only have one AI picture in the slides this whole space really is a game of Survivor. A lot of people have been voted off the island. So that's kind of what this talks about. I thought it was appropriate to steal branding from a reality show. So my name is George Hotz, and this is Outwit, Outplay, Outlast. So does this work? There we go. So you know what? I don't work at Comma anymore. I am still the president, but, you know, you heard from Adib, who presented the Comma for, and you'll hear from Harold after me. They are the executives who run the company. I am a cheerleader. So I'm mostly here to cheerlead. Sometimes I complain. You know, like, oh, man, you know, you think the cheerleaders ever complain? Like, why'd you guys lose? That sucked. I could have thrown that ball better than that. So, yeah, those are the things I do. So, you know, you're hearing from a cheerleader here. You're not hearing from anyone with any secret inside knowledge, but this has just been my observations. I used to work at Comma, so I know a little bit about it. We can talk about what the original plan was. We were going to contract with Tesla to replace Mobileye. The deal fell through. You know, we had some good press around that. That was fun, you know. Elon's a great guy. It's really, it's's really uh you know you just got to think about the thing i really like about elon is he inspires you even if you're his enemy if you're his friend it doesn't matter it's like it just shows you that great things are possible right and this just you know that's what makes me really happy so you know even though the contract fell through it's great things are possible, right? So we're going to build Autopilot anyway, right? My contract was to replace Mobileye and the original Tesla Autopilot. We build it anyway, and we're going to sell it to car makers. You know, a lot of people are like, George, George, why doesn't Kama work with car makers? You know, this was the original plan. We were going to go sell to car makers, right? But so we built it. We built it. This was the original Kama car. I stole this from another TV franchise. We got Engage. Right? This was on Bloomberg 10 years ago. We had all this stuff. I think Adib talked about this a little. Hots added a joystick to the car center console. A pull of the trigger engages the self-driving system, right? Why did I use the cruise control button? But business, so this works. It was actually really good. We did a road trip to Vegas. We're driving. It's not quite as good as modern open pilot, but a lot of it was really good. We did a road trip to Vegas. We're driving. It's not quite as good as modern OpenPilot, but a lot of it was there. A lot of the stuff we've done for the last 10 years was shipability. So we build this, and I'm like, okay, so now I just gotta talk to the... That's the only AI-gener generated photo in the slides. It's kinda like, hello Mr. Ford. Yes, okay, so you see this? This, and Mr., you don't, what do you mean, you don't know what a PID loop is? No, no, no, no, but like, no, it's using like an AI model and predicting the steering angle and putting that to a PID loop. Oh. Yeah. I mean, it might as well be AI generated, right? There is no Mr. Ford. I was misled by how Tesla was run because there actually is a Mr. Tesla. You can go to Elon and say you're using a neural network with a PID loop, and he's like, that's shit, we got model predictive control. So it turns out you can't just do this. And even people today say, well, why doesn't Common work with car makers? And I want you to take that and then think about that a little bit more and think about how that might actually happen. Notice that a lot of people have this idea. A lot of companies have the idea that they're going to sell to car makers. And we're going to look later in this slide into how it worked out for them. So giving up on this idea was the right move. I understand that it doesn't feel right. I understand that people have this idea that, well, but you should. That's what makes you a legitimate business. Look at my figurehead polishing machine. It is fake legitimacy. So we're going to pivot. I think I just sell to car makers. Who came up with this idea? No? Me? Let's fire that guy. We're going to pivot. And what are we going to pivot me? Oh, fire that guy. Pivot, and what are we gonna pivot to? Well, can a cell phone drive a car? That's kind of the original question. We thought about all that stuff and we're like, can we run all of this on a cell phone? And the answer was yes, and we did it in about six months. And then we launched the Comma One. Comma One was shipping by the end of the year for $9.99 and $24 a month, right, which is actually exactly what the Comma 4 is. The Comma 4 is $9.99 and, you know, optional, $24 a month. We don't have a page on the website describing it now, but you guys should buy Prime anyway. It's in the FAQ, don't worry. But yeah, no, it's the exact same thing. It's the exact same thing it's the exact same thing but I didn't realize actually how hard this was many times in my life I've been hit by Dunning-Kruger and no one is ever going to start a company if they don't believe that things are easy right what's the saying it's you know we didn't do it because it was easy We did it because we thought it was going to be easy. Yeah, so. Yeah. I mean, like, and I didn't really, like, see it, but, like, we just kind of weren't there. Yeah. And then we got to reach out from Nishta. I'm like, oh my God, guys, guys, it's a cell phone in a plastic case. You're already harassing me and telling me you want fines. And I'm just like, you know, when they go left, you just like eat a cheesecake. You see what I mean by that? Right? It's like, you know, the saying like, when they go left, you go right. When they go left, you eat a cheesecake. Like it's like, it's like these people don't even understand. Nobody understands what's happening like right now with AI. It's so fake. And it was fake back then. It was just the beginnings of it. Now people are kind of starting to catch on. But 10 years ago, people were like, oh, the media. Oh, this is in the New York Times. That's a legitimate news source. Right now it's like the media, right? Try, try, try until you die is not what most people would advise. In this case, however, startup comma AI is probably close to calling it quits. Slash gear, 2016. Lessons from the failure of George Hotz and the Kama 1 semi-autonomous driving system, Forbes, 2016. Kama is taking its ball and going home, automotive news, 2016. Autonomous vehicle company shuts down in fear of regulation. Like, this just isn't true and it's so interesting like when you see a media story about something that you understand this is Gelman amnesia right like like you see it you see a news article let's say you know you study physics and you see a news article about physics and you're like oh god these people don't know anything about physics why can't they get a physics guy Oh international politics Wow Iran is sure causing trouble they must be really informed about this it's just like no they're so like like well skate where the puck is going not where it has been so this was the first video of open pilot driving. We open sourced it. This is the first open pilot release. Open pilot is an open sourceced it. This is the first open pilot release. Open pilot is an open source driving agent. Currently it performs the functions of ACC and LCAS for Hondas and Acuras. It's about on par with Tesla autopilot at launch and better than all other manufacturers. And that's still kind of true. So we didn't ship the Kama 1. It actually took a long time and again it really is Dunning-Kruger and it's you know no one's to blame but myself. I don't blame Nishta, I don't ship the Comma One. It actually took a long time. And again, it really is Dunning-Kruger. And no one's to blame but myself. I don't blame Nishta. I don't blame the media. It's fun to make fun of these people. But fundamentally, at the end of the day, I had a phone and a 3D-printed case. So four years later, we shipped a phone and a 3D-printed case. No, no, no. Look, the case is smaller. Look, we added some IRLDs down here. We added a GPS. There's a board in the back here. It's pretty nice, right? Who owned a Comma 2? I had a few people, yeah. You know, it was something. And it was $9.99 and $24 a month. So then after the Comma 2, we shipped the Comma 3. The Comma 3 was starting to look like a real product. The Comma 3 actually shipped pretty quickly after the Comma 2. Look at that open pilot. It looks pretty modern. It looks pretty good. But the Comma 3 was too expensive. Who had a Comma 3? Wow more of you than comma twos. I'm sorry you guys paid so much money. But you know what? Don't feel bad because however much money, what, you're out two grand for a comma three? We're out five million on the comma three. Comma lost five million dollars on the comma three project. Sales stagnated. The product was too expensive and undifferentiated from the two. It was a lot better. We made a lot of progress in making the thing look like a consumer electronic. But fundamentally, this didn't drive sales. This is the comma 2 era. And this is the comma 3 era. But, you know, we fixed it. We shipped the comma 3x. How many people had a comma 3x? All right, all right, a lot it. We shipped the Comma 3X. How many people had a Comma 3X? All right, all right, a lot more Comma 3Xs out there. And it was sold for a good price. And that fixed sales. All right, so what do you guys think? This is future-facing statements. We have future-facing statements here. Yeah. So, no, I mean, I think that... Oh, the presentation's pretty good. The website's pretty good. The website is pretty good. The device is amazing. None of the stuff we've shown off does justice to just how much better this device is than the old one. I mean, like, you see this, like, picture in the UI. And, like, it looks like, oh, you know, this could be, like, Photoshopped by some, like, fake company. You know, it's so difficult today to tell the difference between what's fake and what's real. Because what makes something real is an incredibly difficult engineering problem. And hopefully we conveyed some of that to you today, how just insanely difficult it is to make this device. And people are like, oh, you want an 8-year-old mobile phone chip. None of that matters. My Apple II was more responsive. Apple II running VisiCalc was more responsive than my M4 MacBook running Google Sheets. Why is this? It's just due to this insane complexity of software. None of it has anything to do with the actual hardware. This thing is 10 years of refinement in a piece of software. You saw the first version of the software. You see the current version of the software. I'm hearing about mutation testing this morning. I'm like, damn, we've got to put that in TinyGrad. But yeah, I mean, I think this is the first one that is a it's really a top tier consumer electronic I love consumer electronics Adib really loves consumer electronics yeah it's really if you buy this device and get one shipped to you I think you'll find it it might actually be the best unboxing experience you've ever had and get one shipped to you, I think you'll find it... It might actually be the best unboxing experience you've ever had. And I don't say this like... I say this, I'm actually thinking about it, right? Because when people buy a new laptop, it's like, okay, it's a little bit better than the old one. And if you guys had a Comma, maybe some of the magic would be lost. But for someone who's never had this, for someone to realize that you can buy a little device that fits in the palm of your hand, stick it on your windshield, and it drives the car, that's magic. And you can describe it to a six-year-old. So here's your test. Here's your test for all technology. Whenever someone tells you that they have some new technology, oh, we're building humanoid robots. Okay, cool. Can I have one over and have it cook me some pasta? No, that doesn't exist. But you wouldn't know it. You wouldn't know it. If you consume media, if you consume advertising, all of this stuff looks possible that's fake. all of this stuff looks possible that's fake. Oh, AI coding is going to lay off 30% of engineers, like actual AI coding. You can't even use these things for customer support jobs. The disconnect from reality and hype is insane. And I don't have any language to convey. I'm not better at hype and better at advertising than those people. They're actually better at it than me. But what Kama is better at is making a product. So I think if you've never driven a Kama and you buy this Kama 4, it might be the best consumer electron experience, consumer electron experience you've had since, I don't know, you guys remember getting an N64 when you were a kid? Those are the real magic ones, right? Because from the SNES to the N64, that was magic. From the PlayStation 4 to the PlayStation 5, and now I'm playing Modern Warfare 6 instead of Modern Warfare 5. Well, it's not really better, but they're shutting the server down for Modern Warfare 5. So it's a top-tier consumer electronics. Look at this great circuit board. Now, that's the circuit board from the Comma 3. That's the circuit board from the Comma 4. Adiba already went through this, but, yeah, I mean, that's on par with the true state of the art. Like I said, we have an SMT line that's, yeah, doing things that they're not doing in the fanciest SMT lines in China. Vapor phase oven, 3D optical inspection. They're good about inspection, but they don't have the nice ovens. That's what the front of it looks like. This is an LTE modem, GPS antenna. I did have a contribution to this. I did, I did. Even though I'm a cheerleader, I cheerlead for something. I wanted the GPS antenna to be big. There was going to be a small GPS antenna, but I'm like, the photons come from the sky, and here's the antenna, and you've got to hit the... So, yeah, camera board connector. What's it very low dynamic range. It's hard to see. What is success? These are the kind of questions you start to think about. Who succeeded? I should have included this in the talk. There's a great quote from Jensen. This man owns the biggest company in the world. And he's like talking, he's just like talking cat in an interview. He's like, man, you know, if I'd known how much like, oh, how much headache it was going to be and how hard it was going to be, I never would have done it. I love this. I mean, I love this. I love, you know, it's great that he, you know, it's great to see the success of people like that. And, yeah, I mean, if the top company in the world, the greatest founder in history, this is the biggest company in history, is saying this, you know, then what is success? And you think about a game of chess. You think about what success means in a game of chess. Success is when you win, right? And you might lose, you might draw, but either way the game ends. Chess is a finite game. But what does success look like in an infinite game success is simply surviving so uh you know let's you Thank you. The American Pronunciation Guide Presents ''How to Pronounce Keith Rabois'' This is the founder's phone back, Keith Rabois. The founder of this company steals all the comma rhetoric, literally steals all my rhetoric, has over 10x the funding. Oh, they're going to ship. Oh, now it's automaker partners, but originally they were going to ship a kit to put it on your car. $220 million. Who remembers Embark? Did a SPAC. Did anyone ever do a SPAC and succeed? Did anyone ever go, oh yeah, I'm so glad I invested in that SPAC, bro. Come on. in that SPAC, bro. Come on. I was on a panel with these people. I hear myself talking and I'm just like, oh my God, you have no idea what the hell I'm saying. They're actually being investigated now for selling secrets to the Chinese or whatever. My thing is just like, what secrets? Billion-dollar hit on Argo, right? This was the Ford-Volkswagen joint one. Shifts its bet to driver assist tech. Yeah, you can right now go use a blue blues cruise on your Ford, or you can buy a Comma. How many billions, you know? And then there's the really big one, of course. Despite $10 billion spent. Did you know that Cruise was originally, I talked about this in last year's Comic-Con, or two years ago Comic-Con. Cruise was originally building a $10,000 aftermarket kit for Audi A-Force. Kyle Vogt gave up on this dream. He gave up, he talks about this on Lex Friedman, because it was too hard. There are too many different cars you're gonna have to support. Figuring out how to support all those cars is too hard, and figuring out a graceful degradation if everything isn't working perfectly is too difficult. Comma solved all these problems years ago. None of this stuff was hard, right? But then people look, and it drives me crazy. It's like there's still people out there who think Cruise is a bigger success than Comma. They lost $10 billion! I don't even know what to say. Like reality comes and smacks you in the face, and you're like, yeah, yeah, that was, yeah, yeah. No, but it was a good run, man. It was a good run. For $10 billion, you could have had six of these. It's the biggest building in the world. We could have had one in Chicago. We could have had one in San Francisco. We could have had one in LA. We could have one in San Francisco. We could have had one in LA. We could have one in here in San Diego. But no, we had Cruise. Oh yeah, yeah, by the way, Kyle Vogt, he's looking for investors. He started a company called The Bot Company. They raised $150 million. They're building humanoid robots, guys. Yeah, yeah. Self-driving, that was too hard, but humanoid robots? We chose self-driving because it's the easiest problem in applied AI, and it's still not close to done. We can get to some things about that in a little bit, but humanoid robots are way harder. Humanoid robots are so much harder than self-driving cars. And so, you know, if you like losing money, I mean, you can say it was a good ride. Or invest in the new Burj Dubai. I believe that. Someone should build that. Or actually, I really want to build a large statue of Taylor Swift. Like, I want to build, like, a 500-foot stone statue of Taylor Swift on that highway from L.A. to Vegas. It's going to be sick. It's my Taylor Swift statue. If I ever get rich, that's what I'm going to Vegas. This is gonna be sick. That's my Taylor Swift statue. If I ever get rich, that's what I'm gonna do. So this is my slide from 2016, the players. So we have Google, we have Otto. Anthony Lewandowski walked away with a lot of money until they sued him for it. And we have Tesla. So, you know, yeah, let's, who was notably absent from the Old Town Road, you know, compilation was Waymo. Waymo's actually pretty cool. And I'm not saying this, like, ironically. And, like, what makes them cool is that I can download an app and use it. And that's, again, my test for what real technology is. It's not real technology if you see a video. It's not real technology if Waymo is talking about how we're going to help the blind get around. Why can't they just use Uber? Like, huh? I don't get it. Stop it. But when I can go to San Francisco and download an app and call a Waymo, that's actually pretty cool. They're human-supervised and quasi-tele-op. They're not a solution to self-driving cars. They have questionable unit economics. They use maps. But they survived and they shipped. And that makes them cool. And it's really nice to be in the car alone. If you read my 100x investment, I wrote a blog post about this in 2018. And my criticism of Waymo actually was not that it would never work. I remain quite optimistic that self-driving cars are going to work and we're going to get to when the timeline is. And I think that it's very possible that Waymo will actually have the first solution with these caveats. But the unit economics of Waymo would never be as good as the unit economics of Uber. A day to this girl for a bit who was an Uber driver. I'm like, I just looked at how much she was making on the rides and stuff, and I'm like, you're losing money. Like, when you take the cost of depreciation and gas and car maintenance, she's actually losing money. Uber's new system has figured out ways to prey on people who are bad at math, pretty much. Or they have, like, Uber drivers who are, like, you know, they carefully, like, it's so amazing when you look at the disparity of resources between an Uber driver and Uber and all the little tricks they can pull. So Waymo will never be able to compete with Uber on unit economics, but they actually might not have to. I thought that I was in the minority of people who didn't like having the person in the car, but I actually think that's like 80% of people. So Waymo, despite being tele-op and despite having questionable unit economics, may very well be a cool, successful service. So, you know, and it's interesting, you know, they take the same, how Waymo outlasted the competition, right? Surviving. So yeah, you know, the players in 2024, right? Like who's left? Did I miss anyone? Zooks, okay, okay. To be fair, Zooks has something. Does the car drive in all directions anymore? Something, something, something. But no, I mean, look, the big player here is, of course, Tesla. It's always been Tesla. We can just talk about, since the beginning, we've always talked about how far we are behind Tesla. And it has stayed that way. They have managed to stay about two or three years ahead of us continually. The new FSD, I was blown away. Like at the leaps that were made from like the FSD 12 that I tried that I was like this is literally worse than open pilot to like FSD 14 which is like alright they figured something out we got to figure that out too. I think we got it. I think we got it. But you can look at the fleet size. This is the Waymo fleet, the Comma fleet, Tesla fleet. Comm This is the Waymo fleet, the Comma fleet, the Tesla fleet. Comma is the second largest video-connected fleet after Tesla. And these are our growth numbers. So we have almost 7,000 dailies and almost 12,000 monthlies. So yeah, we're gathering big data, but again, there's really only one company to compare yourself to in this space, and it's Tesla. So let's talk about our distance to Tesla. Here's some breakdowns of some different axes, right? So when you look at the difference in fleet size between Kama and Tesla, we're off by three orders of magnitude. So Kama's 10K, Tesla's about 10 million. When you look at the total number of training, total amount of training compute that we have, you can see the tiny box pros over there. You'll hear about them more in the talk later. We have about 1,000 GPUs. Tesla has about 100,000 GPUs. So we're off by two orders of magnitude there. Inference compute, which is how much compute is actually on the device. So if you heard about the 10-watt version and the 100-watt version, right? The 100-watt version is not a different device. It's literally just a GPU that plugs into your Comma 4. It's a consumer GPU that plugs into your Comma 4. Your average consumer GPU has the same power as the Tesla FSD AI computer. You know, Tesla will never tell you this, but like a 5090 crushes it. A 5070, that's about the same. But a lot of this is just because of power. Right, the Tesla thing draws 300 watts, a 5090 draws 600 watts. So yeah, inference compute, Tesla's ahead by two orders of magnitude, but we'll get to that one later, and then we have yearly spend. So comms yearly spend is about 10 million, Tesla's about 100 billion, so that's four orders of magnitude, but we'll get to that one later. And then we have yearly spend. So comms yearly spend is about 10 million. Tesla is about 100 billion. So that's four orders of magnitude. So training compute, we closed from three orders of magnitude to two orders of magnitude by building our computer factory. Inference compute, we've closed from two orders of magnitude to zero orders of magnitude. So over there on the table, we have the comma compute boxes, but that's what the comma compute box really is. This is a AMD RTX 9060 XT. It's a $300 GPU, 205 tops, and it already just works with the comma 3, 3X, and 4. The software won't come to the 3, but the software will come to the 3x and four, and someone can backport it to the three if they want. Nice power enclosure coming soon, or you can build your own out of parts on Amazon. We'll charge some amount of markup for the nice box, but you're welcome to build your own. Okay. So how much longer to solve self-driving? Okay. So how much longer to solve self-driving? This is teslafsdtracker.com. It's probably the best way to kind of get at this. We have an internal version of this, but it's a little bit different. I mean, like, Tesla and Kama are pushing on fundamentally different things. Tesla's slogan, or Kama's slogan is make driving chill. Our question is like how do we achieve highway perfection? Tesla's question is how can I ship this crazy feature? Right, like look at this crazy feature is kind of like Tesla's unofficial slogan. So yeah, you can look at the numbers and you can look, the FSD14 has really, the felt experience is really noticeable in data. However, every order of magnitude takes the same amount of time. There's a simple way to predict how long things are going to take. Human car accidents happen about every 500,000 miles. If you believe FSD tracker, current Tesla stuff is around 3,000 miles per critical disengagement. It gets about 2x better every year. If you want to figure out how long something's gonna take, take the trend line and continue it. We have eight more years. And you know what? Whenever I make, like, whenever I say eight years, there's two groups of people. There's two groups of people. One's like, no, man, have you seen what ChatGBG can do? It's going to be, like, next week. And, of course, those people are never right. But there's another group of people out there, too, who says, no, man, you know, AI is never going to have, like, the human reasoning needed to drive a car or something. Or the brain is, it's just like, you're not right either. The actual timeline is going to be about eight years. And that's for Tesla. If Tesla will be there in eight, we'll be there in ten. So, you know, we're halfway. And this is my last slide. I want you guys to remember something else that's lost in a lot of self-driving car rhetoric. A self-driving car is not a car. I have no idea why Cruz and Waymo and Zoox decided to build cars. It's nonsense. A self-driving car is a dude. He's the self-driving. That's a car. We just want to build a self-driving. We don't want to build a dude. He's the self-driving. That's a car. We just want to build a self-driving. We don't want to build a car. The ultimate comma is not a device that plugs into your car. It's a robot that gets in the driver's seat. That's where we're going. Why should we, oh, you're going to crack the Toyota should we oh oh you gotta crack the toyota security oh no who cares build a robot that gets in the seat and grabs the wheel and turns the wheel now don't do this tomorrow because it's not gonna work right having accurate predictions about technology is super important if you want to know where to do investment. I wish VCs understood any concept of this. But yeah, OpenPilot is a general purpose robotics operating system. OpenPilot, everyone always says, oh, comma, you're going to die if you don't partner with car makers. Everyone's going to get security. Or, oh, my God, I don't care. I want to build a robot. I want it to cook and clean for me. But like actually do this. Not build up some hype. In the same way Cruise told you they were going to solve self-driving and wasted $10 billion, you're going to see all the same stuff happen in humanoid robots. And guess who's going to be there to pick up the pieces? Kama and Tesla. Same people who are there today. So, yeah. No, I mean, the Kama 9 is going to be that guy. Get your car. Is it compatible with my car? Yeah, bro. He sits in the seat. All right. That's my talk. I'll take questions. All right. Do we have some questions? I just want to say I'm ready for the comma nine. Yeah, right? Do you see any reason to shorten that two-year gap after Tesla? Would you want to make that shorter? Are you fine being at that? So when you look at some of the fundamental things, like that training order of magnitude thing, so Comma's new compute cluster cost about two million dollars. Tesla's new compute cluster cost about at minimum 200 million. Right, so it's even more, more like 500 million. So they're paying a ton of premium to be early. I don't think it's worth it. I'm certainly okay with being two years behind, meaning if you could have a sustainable business in the meantime. What might shorten that gap, if it turns out the Comma 4 sells wildly more than expected, and we have tons and tons of money coming in, we may be able to deploy it somewhat to shorten that gap, but I can't even make any guarantees. If I could make guarantees, maybe it's worth raising that gap, but I can't even make any guarantees. If I can make guarantees, maybe it's worth raising the money, but you can't make guarantees. But I do think that maybe if we, you know, again, the most important thing is survival. So the question is not do you want to shorten that gap? The question is how much extra risk are you willing to take to shorten that gap? And the answer is zero. I was just curious, when you speak about this being comma nine and cooking and cleaning and all those sort of things, do you mean that literally that the final form factor of a comma would be a general purpose robot? Of course. Okay, wow. Yeah. The car thing is just, again, cars are just the best applied AI problem that exists today. Self-driving cars are going to be solved long before humanoid robotics. But yeah, what, we're going to stop? Oh, guys, guys, guys, innovation's over. Let's exploit. Right? Yeah, let's crank up the monthly subscriptions on people. Let's put some ads in that shit. Yeah. What am I going to do with the money? All these people who are like, I got rich. What did you buy? There's nothing to buy. Taylor Swift statue. Taylor Swift statue. Good point. It's actually, I think it can be done pretty cheaply. I'm not licensing Taylor Swift, by the way. It's called generic female pop star, if anybody asks. See, actually, I could probably do this today, but I would need time. So I share the sentiment that human robotics startups are dumb, they will fail, but what makes Tesla Optimus a good bet? Or is it a good bet? Yeah, do you know what Honda Asima was? So Honda, really in its heyday in the 90s, also built a humanoid robot. For a largely successful car company to take 0.1% of their operating budget and dump it into humanoid robots for press, great idea. For a startup to raise a huge amount of money saying they're eventually going to pay investors back, that's absurd. Tesla's building the Optimus. Tesla already has optimists deployed they're already useful they're in the tesla showrooms waving to you right that's sick right spending you know 10 million 100 million dollars on a sick pr project for tesla that may turn into something in the future so worth it raising that kind of money, ridiculous. The reason it makes sense for Tesla is because they're a highly profitable automaker. Questions? So to continue on and look at the chasm that exists from where it is today to comma nine and that what we see now is body is kind of the beginning of the compute core for that. What are your insights around the grassroots oriented applications for comma body to start stepping towards a dude who gets in the car? Yeah, I mean, okay, so there's one example of consumer robots that actually works. Who knows what it is? Vacuum cleaners, right? So yeah, I mean, can the Comma body vacuum? I mean, I wanna do it a little bit differently, right? Like I don't really wanna build a vacuum. My idea is like, can we just like buy a vacuum off Amazon and then like, you know, have the body grab it and vacuum, right, it should tool use, right? So I think once we're at that milestone, we've also considered the Comma body for security. But then you realize that 95% of what you want is just a fixed mounted camera and a loud speaker. And good software. So you actually don't need the robot form factor for that. But vacuums are the first robotic form factor to pay for themselves. So once the Comma body, once the general purposeness of the Comma body is capable of grabbing your existing vacuum cleaner off Amazon and using it, then I think we can start selling the comma body into people's homes. But fundamentally, it has to come, and someone might figure out an application, right? I don't know if the body is going to be talked about more, but our goal with the new body, the first body was $1,000. That's insane, right? Like, how can we try to charge you? We charge you $1,000 for a comma four, and you'll use that shit 40% of your days, right? That's insane. How can we try to charge you? We charge you a thousand dollars for a Comma 4, and you'll use that shit 40% of your days. That's so worth it. But if you buy a Comma body, okay, it's a cool toy. We've got to price it more like a toy. So the new Comma body is going to be priced at $200. And I hope that someone out there with a Comma 4 and a Comma body figures out some use for these things. And we'll productionize it. But I think Unitary is making the same play, right? Like we bought two of those dogs, they're cool. But they don't make money. There's no way to like deploy this thing in a real application where it like provides value to you, it's a toy. So yeah, we're targeting the toy market for bodies. Hopefully someone will figure out what to do with it. The software will get better. But yeah, until you figure out how to make the robot do something that makes money. All right. Next question. Hey, George. Hey, if you were looking to put me to work, how much would you buy me for? Negative. Honestly, negative. And here's why, right? Like, so much of the fact that things don't scale is due to managerial overhead, right? So if someone comes to you and says, how could you put me to work? You're actually asking something of me. You're asking for me to do something, right? And that's why it's negative, right? You gotta pay me for that, right? The real way to be put to work is to go work on tiny grab bounties. Just go work on them. Or go work on comma bounties. But yeah, no, I think the, yeah, I mean, God, we're getting to the point where the marginal utility of a human is negative and that's scary, but. All right, another question? Thank you for the talk. I wanted to ask about the Chinese competition, especially like Baidu and these companies. What about them? I think they make a search engine and a maps app. That's kind of confusing to use. I think they are making 500,000 trips a week. Where? Baidu, in China. In what city? Wuxi, I think. I haven't been there. I haven't tried it. I mean, again, probably what it is, I'm surprised by that. I mean, Baidu's stack was open source at the beginning. Autoware. I don't know if it's still open source. It's Autoware, right? The Baidu one? Baidu Apollo. Yeah, yeah, yeah. Who was, Autoware was another one. Yeah, yeah, yeah. No, they were open source. Yeah's Autoware, right? The Baidu one? Baidu Apollo. Yeah, yeah, yeah. Who was, Autoware was another one. Yeah, yeah, yeah. No, they were open source. Yeah, it was Apollo. I remember their moonshot rhetoric. I wonder what's still open source. I also wonder how teleop it is. So, like, I think the Chinese are generally more open with showing you their teleop stuff. By the way, Waymo admits to teleop and you've never seen a picture, which means that the teleop's a lot more than you think it is, right? I think the Chinese actually show you, well, yeah, yeah, we hire people from this rural province to come sit in this gaming chair and drive you around. Okay. So, yeah, no, I think that a lot of this, like, teleop stuff is just, it's not self-driving cars. It's cool, and it might be a cool service, but it's not the same thing as solving the AI problem of self-driving cars. There's a lot of other fun problems to solve on the way, but yeah, I mean, that's kind of my take on Waymo and all of these kind of like robo-taxi kind of things. It's actually cool and it actually has carved out its own niche that has shipped, but it's not AI. All right, we got time for two more questions? Anyone? Thank you. Hi, George. You've been posting a lot lately on, well, first you started Tiny and you've been selling the Tiny Box. you've been selling the tiny box and then you've been posting a lot on external GPU. I don't know what you would call that but some way to connect a GPU to a MacBook. Yep. And so can you talk about, I guess on a small scale with that second thing, what you're hoping to accomplish and then more broadly, what do you want the ultimate goal of Tiny to be? The mission of Tiny is to commoditize the pay-to-flop. So what that means is right now there's an extreme premium for NVIDIA pay-to-flops. We'd like to bring the general price of the pay-to-flop to only be slightly above the cost of the silicon and the cost of the power. That's mission one. Mission two is to rethink about how software is made. Tiny has cut through every dependency in the NVIDIA stack. We're speaking directly over PCI to the NVIDIA GPU. Without NVIDIA's user space, without NVIDIA's driver, without anything from NVIDIA, without Kublas, without any of that. So I think that in order to get very reliable robots in the future, you're going to need an operating system that matches that level of robustness, of reliability. And I don't think that we're going to get that through things that look like the current stack. Tiny is radically 100x simpler than the existing stack, and that's what you're going to need to get reliability. And I don't think that we're going to get that through things that look like the current stack. Tiny is radically 100x simpler than the existing stack. And that's what you're going to need to get reliability of things that like, you know, a human is never going to glitch out and slam their head as hard as they can into the table unless there's something seriously wrong with that human. Like that's not like some probability. That will just never happen. Right? With computers, oh sorry, sorry, your kernel got stuck in a thing where it was servicing this interrupt for 300 milliseconds and the motor was at full torque. Okay. Yeah. So I think we need high reliability deterministic computation. That's kind of what Honeycrunt is. For robots. Runs in comma already. All right. already so all right let's George will be available also in the Q&A so let's we're gonna finish up with his talk thank you so much George for that thanks"
+  },
+  "data_removed": false,
+  "error": null,
+  "source": "web",
+  "status": "succeeded",
+  "created_at": "2025-11-15T19:08:58.508Z",
+  "started_at": "2025-11-15T19:08:58.529188211Z",
+  "completed_at": "2025-11-15T19:09:51.581191078Z",
+  "urls": {
+    "cancel": "https://api.replicate.com/v1/predictions/mjhxh15f1hrm80cth3ntn07j9r/cancel",
+    "get": "https://api.replicate.com/v1/predictions/mjhxh15f1hrm80cth3ntn07j9r",
+    "web": "https://replicate.com/p/mjhxh15f1hrm80cth3ntn07j9r"
+  },
+  "metrics": {
+    "predict_time": 53.052002867,
+    "total_time": 53.073191078
+  }
+}
