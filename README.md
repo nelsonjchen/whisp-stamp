@@ -2,6 +2,10 @@
 
 This is an online web tool to process a copy pasted JSON with from incredibly-fast-whisper on replicate.com.
 
+https://replicate.com/vaibhavs10/incredibly-fast-whisper
+
+Pre-hosted at: https://whisp-stamp.mindflakes.com/
+
 There is a sample input in `doc/sample-replicate.json` that would be pasted into the tool.
 
 Here is a snippet of that JSON:
