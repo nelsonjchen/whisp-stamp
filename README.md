@@ -18,7 +18,7 @@ Model: https://replicate.com/vaibhavs10/incredibly-fast-whisper
     replicate run vaibhavs10/incredibly-fast-whisper:latest --input audio="path/to/audiofile.mp3"
     ```
 3. Copy the JSON output (from web UI or CLI) and paste it into the input box
-4. Copy the formatted output from the output box
+4. Copy the formatted output from the output box or click the  "Copy" button to copy the entire transcript to your clipboard
 5. Enjoy your timestamped transcript!
 
 ## Why this tool

@@ -6,6 +6,7 @@
   let error = '';
   let loading = false;
   let sample = '';
+  let copied = false;
 
   onMount(async () => {
     // Load sample input for placeholder
@@ -49,6 +50,17 @@
   function selectOutput(e: Event) {
     (e.target as HTMLTextAreaElement).select();
   }
+
+  async function copyOutput() {
+    if (!output) return;
+    try {
+      await navigator.clipboard.writeText(output);
+      copied = true;
+      setTimeout(() => (copied = false), 2000);
+    } catch (err) {
+      console.warn('Copy to clipboard failed', err);
+    }
+  }
 </script>
 
 <main>
@@ -68,7 +80,8 @@
     <button type="button" on:click={handleTransform} disabled={loading || !input.trim()}>
       {loading ? 'Transforming…' : 'Transform'}
     </button>
-    <textarea
+    <div class="outputWrap">
+      <textarea
       value={output}
       readonly
       rows={16}
@@ -76,6 +89,12 @@
       on:focus={selectOutput}
       placeholder="Transcript will appear here"
     ></textarea>
+      <div class="outputControls">
+        <button type="button" on:click={copyOutput} disabled={!output.trim()}>
+          {copied ? 'Copied!' : 'Copy'}
+        </button>
+      </div>
+    </div>
   </div>
   {#if error}
     <div class="error">{error}</div>
@@ -114,6 +133,27 @@ textarea {
   background: #f8f8f8;
   min-height: 8rem;
   cursor: pointer;
+}
+.outputWrap {
+  position: relative;
+}
+.outputControls {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+}
+.outputControls button {
+  background: #10b981;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.outputControls button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 button {
   align-self: flex-start;
