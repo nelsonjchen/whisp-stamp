@@ -7,6 +7,20 @@ Live demo: https://whisp-stamp.mindflakes.com/
 
 Model: https://replicate.com/vaibhavs10/incredibly-fast-whisper
 
+## Usage
+
+1. Extract the audio from the video.
+  * If YouTube, use `yt-dlp -t mp3 <video-url>`
+2. Run the audio through the Replicate model:
+  * Via Replicate web UI: upload the audio file to https://replicate.com/vaibhavs10/incredibly-fast-whisper and start the prediction.
+  * Via Replicate CLI:
+    ```
+    replicate run vaibhavs10/incredibly-fast-whisper:latest --input audio="path/to/audiofile.mp3"
+    ```
+3. Copy the JSON output (from web UI or CLI) and paste it into the input box
+4. Copy the formatted output from the output box
+5. Enjoy your timestamped transcript!
+
 ## Why this tool
 - Readable timestamps from Replicate chunked output
 - Fast copy/paste for SRT-like timestamps and in-page searching
